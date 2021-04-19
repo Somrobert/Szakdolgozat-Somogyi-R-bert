@@ -1,0 +1,1 @@
+../../../EndlessRunner/EndlessRunner.uproject  /Game/ThirdPersonBP/Maps/RunnerMap -Messaging -SessionId=A8AE8CFE4901EB437239909BB9820AA6 -SessionOwner="Robi" -SessionName="Launch On Device" -iterative

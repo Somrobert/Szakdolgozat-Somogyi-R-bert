@@ -1,0 +1,1764 @@
+int logctl_get(): open '/dev/hwlog_switch' fail -1, 13. Permission denied
+
+
+
+Note: log switch off, only log_main and log_events will have logs!
+
+--------- beginning of main
+
+04-10 18:52:12.269 30051 30051 I appproc : CLASSPATH=/system/framework/am.jar
+
+04-10 18:52:12.269 30051 30051 I appproc : Command=app_process /system/bin com.android.commands.am.Am start -n com.YourCompany.EndlessRunner/com.epicgames.ue4.SplashActivity 
+
+04-10 18:52:12.284 30051 30051 I AndroidRuntime: readDownloadBoosterConfig: 'false'
+
+04-10 18:52:12.341 30051 30051 I HWSERVICES: hwnative_get_component_register:libdrmbitmap,JNI
+
+04-10 18:52:12.348 30051 30051 I         : power log dlsym ok
+
+04-10 18:52:12.349 30051 30051 I Radio-JNI: register_android_hardware_Radio DONE
+
+04-10 18:52:12.355 30051 30051 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio
+
+04-10 18:52:12.356 30051 30051 I android_hardware_fm.cpp: ========64bit long size = 8
+
+04-10 18:52:12.356 30051 30051 I android_hardware_fm.cpp: FM: get chip type = bcm43xx
+
+04-10 18:52:12.357 30051 30051 E fm_if.c : find the id:fm and begins to open the devices
+
+04-10 18:52:12.358 30051 30051 I android_hardware_fm.cpp: register_android_hardware_fm_fmradio, ret is 0
+
+04-10 18:52:12.409  2066  2066 I HwLauncher: Launcher onPause()
+
+04-10 18:52:12.413  2066 30061 I HwLauncher: Launcher.MotionManager stopMotionAppsReco begin,flg = 402
+
+04-10 18:52:12.413  2066 30061 W HwLauncher: Launcher.MotionManager stopMotionAppsReco service flg 402 is unavailable
+
+04-10 18:52:12.413  2066 30062 I HwLauncher: Launcher.MotionManager stopMotionAppsReco begin,flg = 403
+
+04-10 18:52:12.413  2066 30062 W HwLauncher: Launcher.MotionManager stopMotionAppsReco service flg 403 is unavailable
+
+04-10 18:52:12.444 30063 30063 I art     : Late-enabling -Xcheck:jni
+
+04-10 18:52:12.462  2066  2066 I SendBroadcastPermission: action:com.huawei.android.action.WIDGET_FOCUS_CHANGE, mPermissionType:0
+
+04-10 18:52:12.470   385  2365 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=1920, format=0x1, usage=0xb33
+
+04-10 18:52:12.471   385  2365 I gralloc : Alloc handle(0x7f80fc6600): interfmt=0x1, stride=1088, size=8486912
+
+04-10 18:52:12.472   385   385 W gralloc : gralloc_register_buffer:74: Registering handle 0x7f80fc6400 coming from the same process: 385.
+
+04-10 18:52:12.494   385   418 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=1812, format=0x1, usage=0x933
+
+04-10 18:52:12.494   385   418 I gralloc : Alloc handle(0x7f80fc6a00): interfmt=0x1, stride=1088, size=8486912
+
+04-10 18:52:12.499  1499  1499 I HwSystemManager: HsmPackageManager:onConfigureChanged: hu_HU
+
+04-10 18:52:12.501 29919 29919 W ResourceType: For resource 0x7f07068d, entry index(1677) is beyond type entryCount(1387)
+
+04-10 18:52:12.501 29132 29132 I HwSystemManager: HsmPackageManager:onConfigureChanged: hu_HU
+
+04-10 18:52:12.508   956  1272 I InputReader: Reconfiguring input devices.  changes=0x00000004
+
+04-10 18:52:12.508   956  1272 I InputReader: Device reconfigured: id=2, name='huawei,touchscreen', size 1080x1920, orientation 1, mode 1, display id 0
+
+04-10 18:52:12.529   385   418 I gralloc : Free handle(0x7f8ca23300)
+
+04-10 18:52:12.530   385   418 I gralloc : Free handle(0x7f912bb400)
+
+04-10 18:52:12.547  2028  2938 W PGApi_client: recv actoionId = 10000, action = com.huawei.pgmng.PGAction@bf68eff actionId =10000 pkg =com.YourCompany.EndlessRunner extend1 =46 extend2 = flag =3 type =1
+
+04-10 18:52:12.552   385 28308 I gralloc : Alloc req: dev=0x7f91142540, w=16, h=16, format=0x1, usage=0x100
+
+04-10 18:52:12.553   385 28308 I gralloc : Alloc handle(0x7f80fc6500): interfmt=0x1, stride=64, size=4096
+
+04-10 18:52:12.557  1499  1821 I HwSystemManager: NotificationGuideService:handle MSG_ACTIVIY_FOREGROUND, uid:10120
+
+04-10 18:52:12.564   385   385 I gralloc : Free handle(0x7f91288c00)
+
+04-10 18:52:12.565  2066  2066 I HwLauncher: Workspace onSizeChanged
+
+04-10 18:52:12.606  1499  1948 I HwResources: load icon id : 7f06001a, pkgName : com.YourCompany.EndlessRunner
+
+04-10 18:52:12.611  2028  2049 I PgedBinderListener: kstate callback type:16 value1=9583 value2=CALLED
+
+04-10 18:52:12.614   385   418 I gralloc : Free handle(0x7f80fc6500)
+
+04-10 18:52:12.882  1499  1948 I BitmapFactory: set decoder allocator to gralloc
+
+04-10 18:52:12.884  9234  9545 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+
+04-10 18:52:12.884  9234  9234 I Step_LSC: 80000309|onStandStepChanged 0
+
+04-10 18:52:12.885  9234  9545 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+
+04-10 18:52:12.886  9234  9545 I Step_HSNH: 80000309|upDateHealthNotification()0|0|10000
+
+04-10 18:52:12.944  1499  1948 I gralloc : Alloc req: dev=0xe4985870, w=96, h=96, format=0x1, usage=0x2000003
+
+04-10 18:52:12.944  1499  1948 I gralloc : Alloc handle(0xd1230e00): interfmt=0x1, stride=128, size=49152
+
+04-10 18:52:12.948  1499  1948 I gralloc : Free handle(0xd1230e00)
+
+04-10 18:52:12.949  2066  2066 I HwLauncher: Model  onReceive intent=Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70000010 }
+
+04-10 18:52:12.949  2066  2066 I HwLauncher: Model  onReceive user=UserHandle{0}
+
+04-10 18:52:12.949  2066  2066 I HwLauncher: Launcher.Utilities updateOrientToPortrait original orientation = 2
+
+04-10 18:52:12.950  2066  2066 I HwLauncher: Launcher.Utilities updateOrientToPortrait: update configuration to portrait
+
+04-10 18:52:12.994  2066  2066 I HwLauncher: Launcher.Settings  updateIconTitleSize fontSize = 12.0
+
+04-10 18:52:12.996  2066  2066 I Choreographer: Skipped 25 frames!  The application may be doing too much work on its main thread.
+
+04-10 18:52:13.066  1499  1948 I HwResources: icon : com.YourCompany.EndlessRunner found in app
+
+04-10 18:52:13.112  9583  9583 I SendBroadcastPermission: action:com.huawei.action_MOTIONRECOGNITION, mPermissionType:0
+
+04-10 18:52:13.113  9583  9583 I SendBroadcastPermission: action:com.huawei.action_MOTIONRECOGNITION_EX, mPermissionType:0
+
+04-10 18:52:13.114  9234  9484 I Step_LSC: 80000309|onExtend:1618073532000 0 0 5
+
+04-10 18:52:13.114   956   977 I LocationManagerService: getProviders()=[passive, gps, network, local_database]
+
+04-10 18:52:13.120   956   977 I LocationManagerService: request 34a622 passive Request[POWER_NONE passive fastest=0] from android(1000)
+
+04-10 18:52:13.120   956   977 I LocationManagerService: provider request: passive ProviderRequest[ON interval=0]
+
+04-10 18:52:13.125   956   977 I SendBroadcastPermission: action:android.location.LOCATION_REQUEST_CHANGE_ACTION, mPermissionType:0
+
+04-10 18:52:13.132  1426  1426 I PanelView: Configuration orientation changed
+
+04-10 18:52:13.147  1426  1426 I TimeManager: receiver action = android.intent.action.CONFIGURATION_CHANGED
+
+04-10 18:52:13.150   385   418 I gralloc : Free handle(0x7f912bb800)
+
+04-10 18:52:13.151   385   418 I gralloc : Free handle(0x7f912bf000)
+
+04-10 18:52:13.157   385   418 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=126, format=0x1, usage=0xb00
+
+04-10 18:52:13.157   385   418 I gralloc : Alloc handle(0x7f912bf000): interfmt=0x1, stride=1088, size=557056
+
+04-10 18:52:13.185  9234  9484 I Step_SPUtils: 80000309| getTodayTotalDetailSteps = 1618073400000##0##0##0##0##1108655
+
+04-10 18:52:13.186  9234  9484 I Step_SPUtils: 80000309| getTodayTotalDetailSteps = 1618073400000##0##0##0##0##1108655
+
+04-10 18:52:13.187  9234  9484 I Step_SPUtils: 80000309|setTodayTotalDetailSteps=1618073460000##0##0##0##0##1180923
+
+04-10 18:52:13.198   385   418 I gralloc : Free handle(0x7f80fc6300)
+
+04-10 18:52:13.198   385   418 I gralloc : Free handle(0x7f912bb200)
+
+04-10 18:52:13.201  1426  1426 W View    : requestLayout() improperly called by com.android.systemui.statusbar.phone.IconMerger{6604930 V.E...... ......ID 0,0-216,72 #7f0f00c7 app:id/notificationIcons} during layout: running second layout pass
+
+04-10 18:52:13.206   385   416 I gralloc : Alloc req: dev=0x7f91142540, w=72, h=1920, format=0x1, usage=0xb00
+
+04-10 18:52:13.207   385   416 I gralloc : Alloc handle(0x7f844ef300): interfmt=0x1, stride=128, size=983040
+
+04-10 18:52:13.255  9234  9484 I Step_ExtSDM: 80000309|calculateCaloriesWithCache totalCalories=0
+
+04-10 18:52:13.255  9234  9484 I Step_ExtSDM: 80000309|calculateAltitudeWithCache totalAltitude=0
+
+04-10 18:52:13.258  1426  1437 I art     : GC statistics: 4 time(s), freed 78609(9MB) objects, paused 2.882ms total 159.051ms
+
+04-10 18:52:13.258  1426  1437 I art     : Background sticky concurrent mark sweep GC freed 33419(2MB) AllocSpace objects, 5(256KB) LOS objects, 0% free, 37MB/37MB, paused 49.725ms total 93.337ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:13.258  2028  2028 I K3V3CpuGovernorPolicy: close previously scene Hmp policy : 300 , 150
+
+04-10 18:52:13.315   385 28308 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=126, format=0x1, usage=0xb00
+
+04-10 18:52:13.315   385 28308 I gralloc : Alloc handle(0x7f844eff00): interfmt=0x1, stride=1088, size=557056
+
+04-10 18:52:13.319  1426  1426 W View    : requestLayout() improperly called by com.android.systemui.statusbar.phone.IconMerger{6604930 V.E...... ........ 0,0-270,72 #7f0f00c7 app:id/notificationIcons} during second layout pass: posting in next frame
+
+04-10 18:52:13.319   385  2365 I gralloc : Alloc req: dev=0x7f91142540, w=72, h=1920, format=0x1, usage=0xb00
+
+04-10 18:52:13.320   385  2365 I gralloc : Alloc handle(0x7f844efe00): interfmt=0x1, stride=128, size=983040
+
+04-10 18:52:13.332 30063 30063 I HwCust  : Constructor found for class android.app.HwCustHwWallpaperManagerImpl
+
+04-10 18:52:13.396 30063 30084 I System  : core_booster, getBoosterConfig = false
+
+04-10 18:52:13.409   385   418 I gralloc : Alloc req: dev=0x7f91142540, w=1920, h=2160, format=0x2, usage=0xb00
+
+04-10 18:52:13.413   385   418 I gralloc : Alloc handle(0x7f912bb200): interfmt=0x200000002, stride=1920, size=16850944
+
+04-10 18:52:13.440  1426  1884 I SendBroadcastPermission: action:com.android.systemui.ACTION_WALLPAPER_USE_MASK, mPermissionType:0
+
+04-10 18:52:13.451 30063 30063 I BitmapFactory: set decoder allocator to gralloc
+
+04-10 18:52:13.451 30063 30063 I gralloc : ddr_interlace_info = 128
+
+04-10 18:52:13.451 30063 30063 I gralloc : Alloc req: dev=0xe43885f0, w=640, h=360, format=0x1, usage=0x2000003
+
+04-10 18:52:13.452 30063 30063 I gralloc : Alloc handle(0xe42e0000): interfmt=0x1, stride=640, size=921600
+
+04-10 18:52:13.456 30063 30063 I gralloc : Alloc req: dev=0xe43885f0, w=1920, h=1080, format=0x1, usage=0x2000003
+
+04-10 18:52:13.459 30063 30063 I gralloc : Alloc handle(0xe42e0100): interfmt=0x1, stride=1920, size=8294400
+
+04-10 18:52:13.471   956   966 I art     : Background partial concurrent mark sweep GC freed 23435(1421KB) AllocSpace objects, 9(236KB) LOS objects, 7% free, 48MB/52MB, paused 1.257ms total 137.405ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:13.490   385   418 I gralloc : Alloc req: dev=0x7f91142540, w=1920, h=2160, format=0x2, usage=0xb00
+
+04-10 18:52:13.497   385   418 I gralloc : Alloc handle(0x7f80fc6300): interfmt=0x200000002, stride=1920, size=16850944
+
+04-10 18:52:13.502 30063 30063 I gralloc : Free handle(0xe42e0100)
+
+04-10 18:52:13.502 30063 30063 I gralloc : Free handle(0xe42e0000)
+
+04-10 18:52:13.512   385   385 I gralloc : Free handle(0x7f912bb200)
+
+04-10 18:52:13.515 30063 30074 I art     : humin current process: com.YourCompany.EndlessRunner
+
+04-10 18:52:13.515 30063 30074 I art     : current process_level is : 0
+
+04-10 18:52:13.515 30063 30074 I art     : Object allocation is busy now, so prior to grow the heap. New heap size is 30 MB
+
+04-10 18:52:13.540 30063 30084 I System  : core_booster, getBoosterConfig = false
+
+04-10 18:52:13.561   385   385 I gralloc : Free handle(0x7f80fc6a00)
+
+04-10 18:52:13.629   385   385 I gralloc : Free handle(0x7f912bb600)
+
+04-10 18:52:13.675 30063 30074 I art     : current process_level is : 0
+
+04-10 18:52:13.739  1426  1426 I WindowBlurViewManager: allowChangeBlurBackground, lastBlur interval:168952ms ago
+
+04-10 18:52:13.739  1426  1426 I WindowBlurViewManager: setBlurBackground()
+
+04-10 18:52:13.760   385  2365 I gralloc : Alloc req: dev=0x7f91142540, w=134, h=240, format=0x1, usage=0x333
+
+04-10 18:52:13.761   385  2365 I gralloc : Alloc handle(0x7f844ef800): interfmt=0x1, stride=192, size=184320
+
+04-10 18:52:13.762   385   418 I gralloc : Free handle(0x7f844ef800)
+
+04-10 18:52:13.847   385   385 I gralloc : Free handle(0x7f80fc6600)
+
+04-10 18:52:13.945  9234  9320 I LogUtil_LogConfig: getLogFile(): logFilePath = /data/data/com.huawei.health/files/com.huawei.health/com.huawei.health_DaemonService/
+
+04-10 18:52:14.543  1426  1426 I Choreographer: Skipped 19 frames!  The application may be doing too much work on its main thread.
+
+04-10 18:52:14.600   956  1271 I InputDispatcher: Dropping event because there is no touchable window at (1395, 567).
+
+04-10 18:52:14.831   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-78 "Telekom-746635"WPA_PSK
+
+04-10 18:52:15.113  9234  9234 I Step_LSC: 80000309|onStandStepChanged 0
+
+04-10 18:52:15.224 30063 30063 I HwSecImmHelper: mSecurityInputMethodService is null
+
+04-10 18:52:15.239   956  1265 W AlarmManager: WAKEUP alarm trigger action = com.google.android.gms.gcm.HEARTBEAT_ALARM elapsed = 1182975
+
+04-10 18:52:15.241   956   978 I SendBroadcastPermission: action:android.os.action.POWER_SAVE_TEMP_WHITELIST_CHANGED, mPermissionType:0
+
+04-10 18:52:15.598   956   983 I art     : Starting a blocking GC Explicit
+
+04-10 18:52:15.613  9583  9583 I SendBroadcastPermission: action:com.huawei.action_MOTIONRECOGNITION, mPermissionType:0
+
+04-10 18:52:15.629  9583  9583 I SendBroadcastPermission: action:com.huawei.action_MOTIONRECOGNITION_EX, mPermissionType:0
+
+04-10 18:52:15.630  9234  9484 I Step_LSC: 80000309|onExtend:1618073534000 0 0 0
+
+04-10 18:52:15.694 30063 30063 E PermissionHelper: GVRTransition2DActivity.getActivity() failed. Trying to get GameActivity.
+
+04-10 18:52:15.801   956   983 I art     : Explicit concurrent mark sweep GC freed 9121(652KB) AllocSpace objects, 5(128KB) LOS objects, 7% free, 48MB/52MB, paused 1.616ms total 202.060ms at android.display thread CareAboutPauseTimes 1
+
+04-10 18:52:15.860 30063 30063 I BitmapFactory: set decoder allocator to gralloc
+
+04-10 18:52:15.860 30063 30063 I gralloc : Alloc req: dev=0xe43885f0, w=161, h=97, format=0x1, usage=0x2000003
+
+04-10 18:52:15.860 30063 30063 I gralloc : Alloc handle(0xe42e0900): interfmt=0x1, stride=192, size=77824
+
+04-10 18:52:15.863 30063 30063 I gralloc : Free handle(0xe42e0900)
+
+04-10 18:52:15.963 30063 30063 W PopupManager: You have not specified a View to use as content view for popups. Falling back to the Activity content view. Note that this may not work as expected in multi-screen environments
+
+04-10 18:52:15.989   956  4047 E SensorHub: batch called handle:0 sample_ns:20000000 latency_ns:0
+
+04-10 18:52:15.990   956  2059 E SensorHub: batch called handle:1 sample_ns:20000000 latency_ns:0
+
+04-10 18:52:15.991   956   968 E SensorHub: batch called handle:5 sample_ns:20000000 latency_ns:0
+
+04-10 18:52:16.012  2028  2056 I PgedBinderListener: kstate callback type:16 value1=1426 value2=CALLED
+
+04-10 18:52:16.019 30063 30063 I Choreographer: Skipped 20 frames!  The application may be doing too much work on its main thread.
+
+04-10 18:52:16.036 30063 30095 I OpenGLRenderer: Initialized EGL, version 1.4
+
+04-10 18:52:16.039   385 28308 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=126, format=0x1, usage=0xb00
+
+04-10 18:52:16.041   385 28308 I gralloc : Alloc handle(0x7f80fc6000): interfmt=0x1, stride=1088, size=557056
+
+04-10 18:52:16.051   385 28308 I gralloc : Alloc req: dev=0x7f91142540, w=1920, h=1080, format=0x1, usage=0xb00
+
+04-10 18:52:16.053   385 28308 I gralloc : Alloc handle(0x7f80fc6b00): interfmt=0x200000001, stride=1920, size=8486912
+
+04-10 18:52:16.053   385 28308 I gralloc : Alloc req: dev=0x7f91142540, w=1920, h=1080, format=0x1, usage=0xb00
+
+04-10 18:52:16.058   385 28308 I gralloc : Alloc handle(0x7f844ef900): interfmt=0x200000001, stride=1920, size=8486912
+
+04-10 18:52:16.058   385 28308 I gralloc : Alloc req: dev=0x7f91142540, w=1920, h=1080, format=0x1, usage=0xb00
+
+04-10 18:52:16.058   385 28308 I gralloc : Alloc handle(0x7f80fc6100): interfmt=0x200000001, stride=1920, size=8486912
+
+04-10 18:52:16.139   385   418 I gralloc : Free handle(0x7f80fc6100)
+
+04-10 18:52:16.140   385   418 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=1920, format=0x1, usage=0xb00
+
+04-10 18:52:16.141   385   418 I gralloc : Alloc handle(0x7f80fc6400): interfmt=0x200000001, stride=1088, size=8486912
+
+04-10 18:52:16.164   385   418 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=1920, format=0x1, usage=0xb00
+
+04-10 18:52:16.165   385   418 I gralloc : Alloc handle(0x7f80fc6700): interfmt=0x200000001, stride=1088, size=8486912
+
+04-10 18:52:16.180   956   983 I ActivityManager: Displayed com.YourCompany.EndlessRunner/com.epicgames.ue4.GameActivity: +2s640ms (total +3s761ms)
+
+04-10 18:52:16.191   385 28308 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=1920, format=0x1, usage=0xb00
+
+04-10 18:52:16.192   385 28308 I gralloc : Alloc handle(0x7f80fc6a00): interfmt=0x200000001, stride=1088, size=8486912
+
+04-10 18:52:16.209  2066  2066 I HwLauncher: Launcher mUnlockScreenRunnbale  getOrientationEnabled false 
+
+04-10 18:52:16.209  2066  2066 I HwLauncher: Launcher onStop()
+
+04-10 18:52:17.575 30063 30093 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+
+04-10 18:52:17.840   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-79 "Telekom-746635"WPA_PSK
+
+04-10 18:52:18.080   385  2365 I gralloc : Alloc req: dev=0x7f91142540, w=720, h=1280, format=0x2, usage=0xb00
+
+04-10 18:52:18.083   385  2365 I gralloc : Alloc handle(0x7f80fc6f00): interfmt=0x200000002, stride=768, size=3993600
+
+04-10 18:52:18.621   682   682 I APM::AudioPolicyManager: getOutput() device 2, stream 3, samplingRate 48000, format 1, channelMask 3, flags 4
+
+04-10 18:52:18.621   682   682 I APM::AudioPolicyManager: getOutputForDevice() returns output 6
+
+04-10 18:52:18.621   682   682 I APM::AudioPolicyManager: getOutputForAttr() returns output 6 stream 3
+
+04-10 18:52:18.622   682  1711 I AudioMixer: Pid:682 add track (1)
+
+04-10 18:52:18.646   682  1088 I APM::AudioPolicyManager: startOutput() output 6, stream 3, session 16
+
+04-10 18:52:18.646   682  1088 I APM::AudioPolicyManager: checkAndSetVolume: stream 9 index 0 device 0x2 delayMs 0
+
+04-10 18:52:18.646   682  1088 I APM::AudioPolicyManager: getNewOutputDevice() selected device 2
+
+04-10 18:52:18.646   682  1088 I APM::AudioPolicyManager: setOutputDevice() device 0x0002 delayMs 0 force 1
+
+04-10 18:52:18.646   682  1088 I APM::AudioPolicyManager: setOutputDevice() prevDevice 0x0002
+
+04-10 18:52:18.646   682  1088 I APM::AudioPolicyManager: setOutputDevice() changing to device 0x0002 , muteWaitMs 0
+
+04-10 18:52:18.658   682  1084 I soundtrigger_msg: sound_trigger_set_parameters:set_parameters string![srs_cfg:trumedia_enable=1]
+
+04-10 18:52:18.658   682  1088 I APM::AudioPolicyManager: setOutputDevice() createAudioPatch returned 0 patchHandle 17 num_sources 1 num_sinks 1
+
+04-10 18:52:18.658   682  1088 I APM::AudioPolicyManager: checkAndSetVolume: stream 0 index 3 device 0x2 delayMs 0
+
+04-10 18:52:18.659   682  1088 I APM::AudioPolicyManager: checkAndSetVolume:setVoiceVolume volume 0.600000, delay 0
+
+04-10 18:52:18.659   682  1088 I APM::AudioPolicyManager: checkAndSetVolume: stream 1 index 0 device 0x2 delayMs 0
+
+04-10 18:52:18.659   682  1088 I APM::AudioPolicyManager: checkAndSetVolume: stream 2 index 0 device 0x2 delayMs 0
+
+04-10 18:52:18.659   682  1088 I APM::AudioPolicyManager: checkAndSetVolume: stream 3 index 0 device 0x2 delayMs 0
+
+04-10 18:52:18.659   682  1088 I APM::AudioPolicyManager: checkAndSetVolume: stream 4 index 6 device 0x2 delayMs 0
+
+04-10 18:52:18.659   682  1088 I APM::AudioPolicyManager: checkAndSetVolume: stream 5 index 0 device 0x2 delayMs 0
+
+04-10 18:52:18.659   682  1088 I APM::AudioPolicyManager: checkAndSetVolume: stream 6 index 12 device 0x2 delayMs 0
+
+04-10 18:52:18.659   682  1088 I APM::AudioPolicyManager: checkAndSetVolume: stream 7 index 7 device 0x2 delayMs 0
+
+04-10 18:52:18.659   682  1088 I APM::AudioPolicyManager: checkAndSetVolume: stream 8 index 0 device 0x2 delayMs 0
+
+04-10 18:52:18.659   682  1088 I APM::AudioPolicyManager: checkAndSetVolume: stream 9 index 0 device 0x2 delayMs 0
+
+04-10 18:52:18.659   682  1088 I APM::AudioPolicyManager: checkAndSetVolume: stream 10 index 0 device 0x2 delayMs 0
+
+04-10 18:52:18.659   682  1088 I APM::AudioPolicyManager: checkAndSetVolume: stream 11 index 1 device 0x2 delayMs 0
+
+04-10 18:52:18.659   682  1088 I APM::AudioPolicyManager: checkAndSetVolume: stream 3 index 0 device 0x2 delayMs 0
+
+04-10 18:52:18.659   682  1088 I APM::AudioPolicyManager: checkOutputForStrategy() getDeviceForStrategy strategy=3 device=2
+
+04-10 18:52:18.673   682  1084 I audio_hw_primary: start_output_stream++: out_type = 0, out_device = 0
+
+04-10 18:52:18.675   682  1084 I audio_hw_primary: select_devices++ mode[0]
+
+04-10 18:52:18.675   682  1084 I audio_hw_primary: output_device_id is 2, output_route is media-speaker;input_source_id is 0, input_route is null.
+
+04-10 18:52:18.676   682  1084 I dsp_common: dsp_common_control_algo:set device = 2
+
+04-10 18:52:18.676   682  1084 I dsp_maxim_ctl: get_smartpa_sence:device = 0x2
+
+04-10 18:52:18.676   682  1084 I dsp_maxim_ctl: maxim_get_prop: get codec_name succ, codec_name = hi6402
+
+04-10 18:52:18.676   682  1084 I dsp_maxim_ctl: maxim_get_prop: get multi mic function enable succ, multi_mic_enable = 0
+
+04-10 18:52:18.717   682  1084 I audio_pop: pop change S4 OL SWITCH SWITCH dir 1
+
+04-10 18:52:18.718   682  1084 I audio_pop: pop change S4 OR SWITCH SWITCH dir 1
+
+04-10 18:52:18.718   682  1084 I audio_pop: pop change SP IL SWITCH SWITCH dir 1
+
+04-10 18:52:18.719   682  1084 I audio_pop: pop change SP IR SWITCH SWITCH dir 1
+
+04-10 18:52:18.719   682  1084 I dsp_common: dsp_common_control_algo:set device = 2
+
+04-10 18:52:18.719   682  1084 I dsp_maxim_ctl: get_smartpa_sence:device = 0x2
+
+04-10 18:52:18.719   682  1084 I dsp_maxim_ctl: maxim_get_prop: get codec_name succ, codec_name = hi6402
+
+04-10 18:52:18.719   682  1084 I dsp_maxim_ctl: maxim_get_prop: get multi mic function enable succ, multi_mic_enable = 0
+
+04-10 18:52:18.719   682  1084 I dsp_codec_para_ctl: get_param_by_sence index 0
+
+04-10 18:52:18.728   682  1084 I dsp_codec_ctl: codec_adsp_send_sync_cmd:ioctl ret=0
+
+04-10 18:52:18.728   682  1084 I dsp_maxim_ctl: maxim_control_algo : product_name = EVA
+
+04-10 18:52:18.733   682  1084 I dsp_codec_ctl: codec_adsp_send_sync_cmd:ioctl ret=0
+
+04-10 18:52:18.733   682  1084 I dsp_maxim_ctl: smartpa_control success with value:1
+
+04-10 18:52:18.739   682  1084 I MAX98925_SPK: MAX98925 SPK POWER ON
+
+04-10 18:52:18.739   682  1084 I audio_hw_primary: select_devices--
+
+04-10 18:52:18.739   682  1084 I audio_hw_primary: start_output_stream--
+
+04-10 18:52:18.803 30063 30165 I         : counter >= 5, send pause/stop state to pg, counter: 0
+
+04-10 18:52:18.810  2028  2924 I PhoneStateManager: wilhelm stop, pid: 30063
+
+04-10 18:52:19.105 30063 30144 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[48,tid=30144,Native,Thread*=0xb1dccd00,peer=0x12eec0a0,"RTHeartBeat 0"]
+
+04-10 18:52:19.130 30063 30143 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[47,tid=30143,Native,Thread*=0xb1db4500,peer=0x12ee70a0,"RenderThread 0"]
+
+04-10 18:52:19.140   385   418 I gralloc : Free handle(0x7f80fc6b00)
+
+04-10 18:52:19.140   385   418 I gralloc : Free handle(0x7f844ef900)
+
+04-10 18:52:19.151   385   385 I gralloc : Free handle(0x7f80fc6400)
+
+04-10 18:52:19.164 30063 30155 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[56,tid=30155,Native,Thread*=0xacd65d00,peer=0x12f150a0,"UdpMess-eceiver"]
+
+04-10 18:52:19.468 30063 30153 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[54,tid=30153,Native,Thread*=0xacd64900,peer=0x12f0b0a0,"FUdpMes-eBeacon"]
+
+04-10 18:52:19.469 30063 30154 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[55,tid=30154,Native,Thread*=0xb1db8600,peer=0x12f100a0,"FUdpMes-.Sender"]
+
+04-10 18:52:19.470 30063 30152 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[53,tid=30152,Native,Thread*=0xb1db7200,peer=0x12f060a0,"FUdpMes-ocessor"]
+
+04-10 18:52:19.616   385  2365 I gralloc : Alloc req: dev=0x7f91142540, w=720, h=1280, format=0x2, usage=0xb00
+
+04-10 18:52:19.618   385  2365 I gralloc : Alloc handle(0x7f8ca23300): interfmt=0x200000002, stride=768, size=3993600
+
+04-10 18:52:20.196 30063 30151 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[52,tid=30151,Native,Thread*=0xacd63500,peer=0x12f010a0,"FTcpListener"]
+
+04-10 18:52:20.388 30063 30150 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[51,tid=30150,Native,Thread*=0xb1db5e00,peer=0x12efc0a0,"FTcpMes-ansport"]
+
+04-10 18:52:20.618   385 28308 I gralloc : Alloc req: dev=0x7f91142540, w=720, h=1280, format=0x2, usage=0xb00
+
+04-10 18:52:20.622   385 28308 I gralloc : Alloc handle(0x7f844ef000): interfmt=0x200000002, stride=768, size=3993600
+
+04-10 18:52:20.845   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-77 "Telekom-746635"WPA_PSK
+
+04-10 18:52:21.136  9234  9234 I Step_LSC: 80000309|onStandStepChanged 0
+
+04-10 18:52:21.591   956  1567 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+
+04-10 18:52:21.639  9583  9583 I SendBroadcastPermission: action:com.huawei.action_MOTIONRECOGNITION, mPermissionType:0
+
+04-10 18:52:21.641  9583  9583 I SendBroadcastPermission: action:com.huawei.action_MOTIONRECOGNITION_EX, mPermissionType:0
+
+04-10 18:52:21.642  9234  9484 I Step_LSC: 80000309|onExtend:1618073540000 0 0 1
+
+04-10 18:52:22.887  1346  1346 I wpa_supplicant: wlan0: HEART-BEAT-ACK: 77
+
+04-10 18:52:22.889   956  1608 W WifiMonitor: couldn't identify event type - HEART-BEAT-ACK: 77
+
+04-10 18:52:23.334   956  2065 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+
+04-10 18:52:23.853   956  1286 I SendBroadcastPermission: action:android.net.wifi.RSSI_CHANGED, mPermissionType:0
+
+04-10 18:52:23.854   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-75 "Telekom-746635"WPA_PSK
+
+04-10 18:52:24.130  2028  2938 W PGApi_client: recv actoionId = 10011, action = com.huawei.pgmng.PGAction@fc6c4cc actionId =10011 pkg =com.YourCompany.EndlessRunner extend1 =52 extend2 =7 flag =3 type =1
+
+04-10 18:52:24.130  2028  2938 W AudioEffectLowPowerImpl: mAudioManager.setParameters = SmartPA_lowpower=on
+
+04-10 18:52:24.132   682  1300 I soundtrigger_msg: sound_trigger_set_parameters:set_parameters string![SmartPA_lowpower=on]
+
+04-10 18:52:24.132   682  1300 I dsp_codec_para_ctl: get_param_by_sence index 7
+
+04-10 18:52:24.141   682  1300 I dsp_codec_ctl: codec_adsp_send_sync_cmd:ioctl ret=0
+
+04-10 18:52:24.149  2028  7453 I ApsService: APS: enable: true
+
+04-10 18:52:24.150  2028  2028 I powergenie_jni: guess platform type = 3
+
+04-10 18:52:24.150  2028  2028 I powergenie_jni: guess platform type = 3
+
+04-10 18:52:24.461  1448  1504 I PowerChecker: check to sleep
+
+04-10 18:52:24.461  1448  1504 W PowerChecker: window is not show or Occluded
+
+04-10 18:52:24.630  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:24.631  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:25.050   956  1265 W AlarmManager: WAKEUP alarm trigger action = com.google.android.gms.gcm.ACTION_CHECK_QUEUE elapsed = 1177931
+
+04-10 18:52:25.123 23940 28277 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.service.IcingGcmTaskService started execution. cause:4 exec_start_elapsed_seconds: 1192 [CONTEXT service_id=218 ]
+
+04-10 18:52:25.147 23940 28276 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.service.IcingGcmTaskService finished executing. cause:4 result: 1 elapsed_millis: 55 uptime_millis: 55 exec_start_elapsed_seconds: 1192 [CONTEXT service_id=218 ]
+
+04-10 18:52:25.181 30063 30063 I Hwaps   : APS: version is 3.1.12
+
+04-10 18:52:25.199 30063 30063 E ApsLdfGameIdentify: binder error
+
+04-10 18:52:25.207 30063 30190 E Hwaps   : no data in database of APSAPPINFO
+
+04-10 18:52:25.241   956   977 I SendBroadcastPermission: action:android.os.action.POWER_SAVE_TEMP_WHITELIST_CHANGED, mPermissionType:0
+
+04-10 18:52:25.251  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:25.251  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:25.751  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:25.751  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:25.782   528   528 E Thermal-daemon: [flash_led] temp_new :35  temp_old :34
+
+04-10 18:52:25.782   528   528 E Thermal-daemon: Report temperature: [flash_led] temp :35  report_threshold:1
+
+04-10 18:52:25.783   528   528 E Thermal-daemon: [ap] temp_new :40  temp_old :37
+
+04-10 18:52:25.783   528   528 E Thermal-daemon: Report temperature: [ap] temp :40  report_threshold:1
+
+04-10 18:52:25.785  2028  2924 I ThermalStateManager: triggerLevel = 0, triggerAction :{bcurrent=0, cpu_a15=0, gpu=0, ucurrent=900, cpu=0, lcd=0, camera_fps=0}
+
+04-10 18:52:25.786  2028  2924 I ThermalStateManager: sensor name: cpu temperature: 40 , thermal action: ucurrent policy:900
+
+04-10 18:52:25.890  2028  2927 W SwitchManager: NoSuchMethod: IPowerManager setChargeHotLimit [int,int]
+
+04-10 18:52:25.890  2028  2927 I powergenie_jni: set charge limit 1: 900
+
+04-10 18:52:26.365  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:26.365  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:26.863   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-73 "Telekom-746635"WPA_PSK
+
+04-10 18:52:26.864  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:26.865  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:28.208 30063 30191 E Hwaps   : no data in database when query game play info
+
+04-10 18:52:28.212 30063 30191 E Hwaps   : no data in database of APSAPPINFO
+
+04-10 18:52:28.218 30063 30191 E Hwaps   : no data in database when query game time info
+
+04-10 18:52:28.223 30063 30191 E Hwaps   : no data in database when query game time info
+
+04-10 18:52:28.227 30063 30191 I SendBroadcastPermission: action:huawei.intent.action.APS_INSERT_DATA_ACTION, mPermissionType:0
+
+04-10 18:52:28.991  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:28.992  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:29.490  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:29.491  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:29.726  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:29.726  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:29.870   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-73 "Telekom-746635"WPA_PSK
+
+04-10 18:52:30.226  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:30.226  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:30.554  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:30.554  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:31.052  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:31.053  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:31.237  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:31.238  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:31.736  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:31.736  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:32.877   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-73 "Telekom-746635"WPA_PSK
+
+04-10 18:52:32.948  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:32.948  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:33.447  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:33.448  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:34.001  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:34.002  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:34.499  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:34.499  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:34.534  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:34.534  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:35.031  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:35.032  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:35.185  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:35.186  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:35.685  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:35.685  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:35.761  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:35.761  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:35.787   528   528 E Thermal-daemon: [pa_0] temp_new :34  temp_old :33
+
+04-10 18:52:35.787   528   528 E Thermal-daemon: Report temperature: [pa_0] temp :34  report_threshold:1
+
+04-10 18:52:35.881   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-74 "Telekom-746635"WPA_PSK
+
+04-10 18:52:36.260  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:36.260  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:36.275  1850  2433 I Bluetooth_app: HeadsetStateMachine:Disconnected process message: 10, size: 0
+
+04-10 18:52:36.938  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:36.938  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:37.437  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:37.437  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:37.572  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:37.573  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:37.903  1346  1346 I wpa_supplicant: wlan0: HEART-BEAT-ACK: 78
+
+04-10 18:52:37.903   956  1608 W WifiMonitor: couldn't identify event type - HEART-BEAT-ACK: 78
+
+04-10 18:52:38.071  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:38.072  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:38.651  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:38.651  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:38.890   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-73 "Telekom-746635"WPA_PSK
+
+04-10 18:52:39.149  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:39.149  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:39.778  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:39.778  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:40.277  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:40.278  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:40.286  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:40.286  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:40.546  1850  2433 I Bluetooth_app: HeadsetStateMachine:Disconnected process message: 10, size: 0
+
+04-10 18:52:40.786  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:40.786  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:40.792   528   528 E Thermal-daemon: [charger_ic] temp_new :36  temp_old :35
+
+04-10 18:52:40.792   528   528 E Thermal-daemon: Report temperature: [charger_ic] temp :36  report_threshold:1
+
+04-10 18:52:40.794   528   528 E Thermal-daemon: [ap] temp_new :41  temp_old :40
+
+04-10 18:52:40.794   528   528 E Thermal-daemon: Report temperature: [ap] temp :41  report_threshold:1
+
+04-10 18:52:40.930   956   966 I art     : GC statistics: 1 time(s), freed 40529(4MB) objects, paused 3.077ms total 45.082ms
+
+04-10 18:52:40.930   956   966 I art     : Background partial concurrent mark sweep GC freed 1706(99KB) AllocSpace objects, 138(5MB) LOS objects, 7% free, 48MB/52MB, paused 1.382ms total 162.993ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:41.598   956  4045 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+
+04-10 18:52:41.781   956   966 I art     : GC statistics: 1 time(s), freed 944(3MB) objects, paused 1.457ms total 11.513ms
+
+04-10 18:52:41.781   956   966 I art     : Background partial concurrent mark sweep GC freed 1139(84KB) AllocSpace objects, 139(5MB) LOS objects, 7% free, 48MB/52MB, paused 1.320ms total 163.213ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:41.901   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-73 "Telekom-746635"WPA_PSK
+
+04-10 18:52:42.131   956   966 I art     : Background sticky concurrent mark sweep GC freed 1335(68KB) AllocSpace objects, 89(3MB) LOS objects, 7% free, 48MB/52MB, paused 5.194ms total 44.552ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:42.616   956   966 I art     : Background partial concurrent mark sweep GC freed 677(54KB) AllocSpace objects, 132(5MB) LOS objects, 7% free, 48MB/52MB, paused 1.673ms total 179.194ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:43.340   956  4045 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+
+04-10 18:52:43.352   956   966 I art     : GC statistics: 1 time(s), freed 419(3MB) objects, paused 2.579ms total 16.297ms
+
+04-10 18:52:43.352   956   966 I art     : Background partial concurrent mark sweep GC freed 1114(73KB) AllocSpace objects, 117(5MB) LOS objects, 7% free, 48MB/52MB, paused 1.309ms total 131.893ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:43.897  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:43.897  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:43.976  9234  9320 I LogUtil_LogConfig: getLogFile(): logFilePath = /data/data/com.huawei.health/files/com.huawei.health/com.huawei.health_DaemonService/
+
+04-10 18:52:44.119   956   966 I art     : GC statistics: 1 time(s), freed 417(3MB) objects, paused 3.151ms total 21.901ms
+
+04-10 18:52:44.119   956   966 I art     : Background partial concurrent mark sweep GC freed 1117(72KB) AllocSpace objects, 122(5MB) LOS objects, 7% free, 48MB/52MB, paused 1.208ms total 165.343ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:44.396  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:44.396  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:44.869   956   966 I art     : GC statistics: 1 time(s), freed 419(3MB) objects, paused 1.208ms total 11.118ms
+
+04-10 18:52:44.869   956   966 I art     : Background partial concurrent mark sweep GC freed 6265(386KB) AllocSpace objects, 125(5MB) LOS objects, 7% free, 48MB/52MB, paused 1.280ms total 163.314ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:44.905   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-74 "Telekom-746635"WPA_PSK
+
+04-10 18:52:45.243  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:45.243  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:45.611   956   966 I art     : GC statistics: 1 time(s), freed 965(3MB) objects, paused 1.293ms total 11.137ms
+
+04-10 18:52:45.611   956   966 I art     : Background partial concurrent mark sweep GC freed 1030(53KB) AllocSpace objects, 120(5MB) LOS objects, 7% free, 48MB/52MB, paused 1.434ms total 169.789ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:45.741  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:45.742  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:46.002   956  1265 W AlarmManager: WAKEUP alarm trigger action = android.content.syncmanager.SYNC_ALARM elapsed = 1213738
+
+04-10 18:52:46.333   956   966 I art     : GC statistics: 1 time(s), freed 471(3MB) objects, paused 1.369ms total 12.245ms
+
+04-10 18:52:46.333   956   966 I art     : Background partial concurrent mark sweep GC freed 1561(73KB) AllocSpace objects, 121(5MB) LOS objects, 7% free, 48MB/52MB, paused 1.413ms total 155.813ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:46.771  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:267
+
+04-10 18:52:46.771  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:47.072   956   966 I art     : GC statistics: 1 time(s), freed 883(3MB) objects, paused 1.516ms total 10.010ms
+
+04-10 18:52:47.072   956   966 I art     : Background partial concurrent mark sweep GC freed 690(53KB) AllocSpace objects, 115(5MB) LOS objects, 7% free, 48MB/52MB, paused 1.213ms total 162.527ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:47.270  2028  2028 I MsgPolicyThreshold: setThreshold,value:1,actionId:233
+
+04-10 18:52:47.270  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:47.389  1426  1830 E BD.Reporter: Can't getService HwBDService
+
+04-10 18:52:47.414  2028  2028 I MsgPolicyThreshold: setThreshold,value:-1,actionId:245
+
+04-10 18:52:47.415  2028  2028 I MsgPolicyThreshold: write ok
+
+04-10 18:52:47.415  2028  2028 I K3V3CpuGovernorPolicy: set scene Hmp policy : 300 , 150
+
+04-10 18:52:47.451   385  2365 I gralloc : Alloc req: dev=0x7f91142540, w=642, h=360, format=0x1, usage=0x333
+
+04-10 18:52:47.452   385  2365 I gralloc : Alloc handle(0x7f80fc6600): interfmt=0x1, stride=704, size=1015808
+
+04-10 18:52:47.452   385 28308 I gralloc : Free handle(0x7f80fc6600)
+
+04-10 18:52:47.463 30063 30063 I SendBroadcastPermission: action:huawei.intent.action.APS_UPDATE_DATA_ACTION, mPermissionType:0
+
+04-10 18:52:47.470  2028  2938 W PGApi_client: recv actoionId = 10010, action = com.huawei.pgmng.PGAction@fdd862a actionId =10010 pkg =com.huawei.android.launcher extend1 =76 extend2 = flag =3 type =1
+
+04-10 18:52:47.470  2028  2938 W AudioEffectLowPowerImpl: mAudioManager.setParameters = SmartPA_lowpower=off
+
+04-10 18:52:47.470   682  1088 I soundtrigger_msg: sound_trigger_set_parameters:set_parameters string![SmartPA_lowpower=off]
+
+04-10 18:52:47.471   682  1088 I dsp_maxim_ctl: get_smartpa_sence:device = 0x2
+
+04-10 18:52:47.471   682  1088 I dsp_codec_para_ctl: get_param_by_sence index 0
+
+04-10 18:52:47.471  2028  2927 I powergenie_jni: guess platform type = 3
+
+04-10 18:52:47.471  2028  2927 I powergenie_jni: guess platform type = 3
+
+04-10 18:52:47.473   385  2365 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=1920, format=0x1, usage=0xb33
+
+04-10 18:52:47.473   385  2365 I gralloc : Alloc handle(0x7f80fc6500): interfmt=0x1, stride=1088, size=8486912
+
+04-10 18:52:47.474   385   385 W gralloc : gralloc_register_buffer:74: Registering handle 0x7f8ca23a00 coming from the same process: 385.
+
+04-10 18:52:47.479   682  1088 I dsp_codec_ctl: codec_adsp_send_sync_cmd:ioctl ret=0
+
+04-10 18:52:47.480   385   385 I gralloc : Free handle(0x7f80fc6200)
+
+04-10 18:52:47.482  2028  7453 I ApsService: APS: enable: false
+
+04-10 18:52:47.495   956  1272 I InputReader: Reconfiguring input devices.  changes=0x00000004
+
+04-10 18:52:47.495   956  1272 I InputReader: Device reconfigured: id=2, name='huawei,touchscreen', size 1080x1920, orientation 0, mode 1, display id 0
+
+04-10 18:52:47.497 29919 29919 W ResourceType: For resource 0x7f07068d, entry index(1677) is beyond type entryCount(1387)
+
+04-10 18:52:47.501  1499  1499 I HwSystemManager: HsmPackageManager:onConfigureChanged: hu_HU
+
+04-10 18:52:47.505 29132 29132 I HwSystemManager: HsmPackageManager:onConfigureChanged: hu_HU
+
+04-10 18:52:47.510   385 28308 I gralloc : Alloc req: dev=0x7f91142540, w=126, h=1080, format=0x1, usage=0xb00
+
+04-10 18:52:47.510   385 28308 I gralloc : Alloc handle(0x7f80fc6600): interfmt=0x1, stride=128, size=552960
+
+04-10 18:52:47.511  2066  2066 I HwLauncher: Launcher  onNewIntent mIsToUninstallApp = false,mIsLoading = false
+
+04-10 18:52:47.514  2066  2066 I HwSecImmHelper: mSecurityInputMethodService is null
+
+04-10 18:52:47.514  1499  1821 I HwSystemManager: NotificationGuideService:handle MSG_ACTIVIY_FOREGROUND, uid:10058
+
+04-10 18:52:47.517  9234  9545 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+
+04-10 18:52:47.520  9234  9545 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+
+04-10 18:52:47.521  9234  9545 I Step_HSNH: 80000309|upDateHealthNotification()0|0|10000
+
+04-10 18:52:47.526   385   385 I gralloc : Free handle(0x7f80fc6000)
+
+04-10 18:52:47.544  1426  1426 I PanelView: Configuration orientation changed
+
+04-10 18:52:47.547   385   418 I gralloc : Free handle(0x7f912bf000)
+
+04-10 18:52:47.547   385   418 I gralloc : Free handle(0x7f844eff00)
+
+04-10 18:52:47.549  2066  2066 I HwLauncher: Launcher  onNewIntent end
+
+04-10 18:52:47.550  2066  2066 I HwLauncher: Launcher onStart()
+
+04-10 18:52:47.550  2066  2066 I HwLauncher: Launcher dynamicIconsRegister
+
+04-10 18:52:47.550  2066  2066 I HwLauncher: DynamicUpdater registerReceiver
+
+04-10 18:52:47.551   385  2365 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=108, format=0x1, usage=0xb00
+
+04-10 18:52:47.551   385  2365 I gralloc : Alloc handle(0x7f80fc6b00): interfmt=0x1, stride=1088, size=471040
+
+04-10 18:52:47.553  1499  1948 I HwResources: load icon id : 7f02006e, pkgName : com.huawei.android.launcher
+
+04-10 18:52:47.553 30063 30175 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[56,tid=30175,Native,Thread*=0xae02ad00,peer=0x12f15100,"UdpMess-eceiver"]
+
+04-10 18:52:47.556  2066  2066 I HwLauncher: DynamicUpdater call updateFolder
+
+04-10 18:52:47.556  2066  2066 I HwLauncher: DynamicIcon onResume  isvisible = true   mAttachedToWindow:false    mWindowVisible:falsecom.huawei.android.totemweather
+
+04-10 18:52:47.556  2066  2066 I HwLauncher: DynamicUpdater registerReceiver
+
+04-10 18:52:47.556  2066  2242 I HwLauncher: WeatherDynamicUpdater positiveUpdate at WeatherDynamicUpdater
+
+04-10 18:52:47.556   385 28308 I gralloc : Free handle(0x7f844efe00)
+
+04-10 18:52:47.557  2066  2066 I HwLauncher: DynamicUpdater call updateFolder
+
+04-10 18:52:47.557  2066  2066 I HwLauncher: DynamicIcon onResume  isvisible = false   mAttachedToWindow:true    mWindowVisible:falsecom.android.calendar
+
+04-10 18:52:47.557  2066  2066 I HwLauncher: DynamicUpdater registerReceiver
+
+04-10 18:52:47.558  1426  1426 W View    : requestLayout() improperly called by com.android.systemui.statusbar.phone.IconMerger{6604930 V.E...... ......ID 0,0-270,72 #7f0f00c7 app:id/notificationIcons} during layout: running second layout pass
+
+04-10 18:52:47.559  2066  2066 I HwLauncher: DynamicUpdater call updateFolder
+
+04-10 18:52:47.559  2066  2066 I HwLauncher: DynamicIcon onResume  isvisible = false   mAttachedToWindow:false    mWindowVisible:falsecom.android.deskclock
+
+04-10 18:52:47.559  2066  2066 I HwLauncher: Launcher  Launcher.onStart() cost 8 ms
+
+04-10 18:52:47.559  2066  2066 I HwLauncher: Launcher onResume()
+
+04-10 18:52:47.560   385   385 I gralloc : Free handle(0x7f80fc6600)
+
+04-10 18:52:47.561  2066  2066 I HwLauncher: Launcher doResumeWork()
+
+04-10 18:52:47.563  2066 30242 I HwLauncher: Launcher.MotionManager startMotionAppsReco begin,flg = 402
+
+04-10 18:52:47.563   385   416 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=72, format=0x1, usage=0xb00
+
+04-10 18:52:47.564  2066  2066 I HwLauncher: Launcher  onResume mIsToUninstallApp = false
+
+04-10 18:52:47.564  2066  2066 I HwLauncher: Launcher  Launcher hot start cost 13 ms
+
+04-10 18:52:47.564   385   416 I gralloc : Alloc handle(0x7f844ef700): interfmt=0x1, stride=1088, size=315392
+
+04-10 18:52:47.569 29598 29622 I SendBroadcastPermission: action:com.huawei.android.action.launcher_weather_icon_change, mPermissionType:0
+
+04-10 18:52:47.571  2066  2242 E HwLauncher: SettingsEx , no such field.
+
+04-10 18:52:47.571  2066  2242 W HwLauncher: Clock getDataFormat the getSystemString failed.
+
+04-10 18:52:47.572  2066  2066 I HwLauncher: Model  onReceive intent=Intent { act=android.intent.action.CONFIGURATION_CHANGED flg=0x70000010 }
+
+04-10 18:52:47.572  2066  2066 I HwLauncher: Model  onReceive user=UserHandle{0}
+
+04-10 18:52:47.572  2066  2066 I HwLauncher: Launcher.Settings  updateIconTitleSize fontSize = 12.0
+
+04-10 18:52:47.588  2028  2049 I PgedBinderListener: kstate callback type:16 value1=1426 value2=CALLED
+
+04-10 18:52:47.590  2066 30242 W MotionDetectionManager: startMotionAppsReco motionApps: 402 disabled
+
+04-10 18:52:47.590  2066 30242 W HwLauncher: Launcher.MotionManager startMotionAppsReco service flg 402 is unavailable
+
+04-10 18:52:47.590  2066 30242 I HwLauncher: Launcher.MotionManager , start MotionApps Reco end.
+
+04-10 18:52:47.603  1499  1948 I HwResources: icon : com.huawei.android.launcher found in app
+
+04-10 18:52:47.609  1426  1426 I TimeManager: receiver action = android.intent.action.CONFIGURATION_CHANGED
+
+04-10 18:52:47.615   956   966 I art     : GC statistics: 1 time(s), freed 951(4MB) objects, paused 2.734ms total 24.730ms
+
+04-10 18:52:47.616   956   966 I art     : Background partial concurrent mark sweep GC freed 3431(228KB) AllocSpace objects, 62(3MB) LOS objects, 7% free, 49MB/53MB, paused 1.805ms total 159.293ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:47.618   385  2365 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=108, format=0x1, usage=0xb00
+
+04-10 18:52:47.619   385  2365 I gralloc : Alloc handle(0x7f8ca23a00): interfmt=0x1, stride=1088, size=471040
+
+04-10 18:52:47.621   385   418 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=1920, format=0x1, usage=0xb00
+
+04-10 18:52:47.621   385  2365 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=72, format=0x1, usage=0xb00
+
+04-10 18:52:47.622   385   418 I gralloc : Alloc handle(0x7f80fc6800): interfmt=0x200000001, stride=1088, size=8486912
+
+04-10 18:52:47.622   385   418 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=1920, format=0x1, usage=0xb00
+
+04-10 18:52:47.622   385  2365 I gralloc : Alloc handle(0x7f8ca23c00): interfmt=0x1, stride=1088, size=315392
+
+04-10 18:52:47.622  2066  2066 I HwLauncher: Workspace onSizeChanged
+
+04-10 18:52:47.625  2066  2066 I HwLauncher: WeatherDynamicUpdater receive action = com.huawei.android.action.launcher_weather_icon_change
+
+04-10 18:52:47.628   385   418 I gralloc : Alloc handle(0x7f912bb300): interfmt=0x200000001, stride=1088, size=8486912
+
+04-10 18:52:47.629   385   418 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=1920, format=0x1, usage=0xb00
+
+04-10 18:52:47.629  2066  2242 I HwLauncher: WeatherDynamicUpdater receiver data is int[] = [0, 0, 48, 0, 72, 0, 96, 0, 120, 0] ; stringArray[] = [mostlycloudy, negative, num1, num4, tempc] ; dynamic_gravity = center
+
+04-10 18:52:47.629  2066  2242 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[0] = mostlycloudy:0, 0
+
+04-10 18:52:47.629  2066  2242 I HwLauncher: DynamicIconData , getDrawableForDynamic begin, pkg = com.huawei.android.totemweather, picName = mostlycloudy
+
+04-10 18:52:47.632 30063 30173 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[54,tid=30173,Native,Thread*=0xacd64900,peer=0x12f0b100,"FUdpMes-eBeacon"]
+
+04-10 18:52:47.633  2066  2066 I SendBroadcastPermission: action:com.huawei.android.action.WIDGET_FOCUS_CHANGE, mPermissionType:0
+
+04-10 18:52:47.634 30063 30174 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[55,tid=30174,Native,Thread*=0xb1db4500,peer=0x12f10100,"FUdpMes-.Sender"]
+
+04-10 18:52:47.634   385   418 I gralloc : Alloc handle(0x7f80fc6c00): interfmt=0x200000001, stride=1088, size=8486912
+
+04-10 18:52:47.634 30063 30172 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[53,tid=30172,Native,Thread*=0xaed56600,peer=0x12f06100,"FUdpMes-ocessor"]
+
+04-10 18:52:47.639  2066  2242 I HwLauncher: DynamicIconData , getDrawableForDynamic end, pkg = com.huawei.android.totemweather, picName = mostlycloudy
+
+04-10 18:52:47.639  2066  2242 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[1] = negative:48, 0
+
+04-10 18:52:47.639  2066  2242 I HwLauncher: DynamicIconData , getDrawableForDynamic begin, pkg = com.huawei.android.totemweather, picName = negative
+
+04-10 18:52:47.639  1426  1426 W View    : requestLayout() improperly called by com.android.systemui.statusbar.phone.IconMerger{6604930 V.E...... ........ 0,0-216,72 #7f0f00c7 app:id/notificationIcons} during second layout pass: posting in next frame
+
+04-10 18:52:47.640  2066  2242 I HwLauncher: DynamicIconData , getDrawableForDynamic end, pkg = com.huawei.android.totemweather, picName = negative
+
+04-10 18:52:47.640  2066  2242 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[2] = num1:72, 0
+
+04-10 18:52:47.640  2066  2242 I HwLauncher: DynamicIconData , getDrawableForDynamic begin, pkg = com.huawei.android.totemweather, picName = num1
+
+04-10 18:52:47.640  2066  2242 I HwLauncher: DynamicIconData , getDrawableForDynamic end, pkg = com.huawei.android.totemweather, picName = num1
+
+04-10 18:52:47.640  2066  2242 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[3] = num4:96, 0
+
+04-10 18:52:47.640  2066  2242 I HwLauncher: DynamicIconData , getDrawableForDynamic begin, pkg = com.huawei.android.totemweather, picName = num4
+
+04-10 18:52:47.641  2066  2242 I HwLauncher: DynamicIconData , getDrawableForDynamic end, pkg = com.huawei.android.totemweather, picName = num4
+
+04-10 18:52:47.641  2066  2242 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[4] = tempc:120, 0
+
+04-10 18:52:47.641  2066  2242 I HwLauncher: DynamicIconData , getDrawableForDynamic begin, pkg = com.huawei.android.totemweather, picName = tempc
+
+04-10 18:52:47.641  2066  2242 I HwLauncher: DynamicIconData , getDrawableForDynamic end, pkg = com.huawei.android.totemweather, picName = tempc
+
+04-10 18:52:47.642  2066  2242 I HwLauncher: WeatherDynamicUpdater tmpMapList = {tempc=24, mostlycloudy=192, num4=24, negative=24, num1=24} , leftMargin = 48 , totalWidth = 96
+
+04-10 18:52:47.642  2066  2242 I HwLauncher: WeatherDynamicUpdater update after : mDrawingData[1] = negative:48, 0
+
+04-10 18:52:47.642  2066  2242 I HwLauncher: WeatherDynamicUpdater update after : mDrawingData[2] = num1:72, 0
+
+04-10 18:52:47.642  2066  2242 I HwLauncher: WeatherDynamicUpdater update after : mDrawingData[3] = num4:96, 0
+
+04-10 18:52:47.642  2066  2242 I HwLauncher: WeatherDynamicUpdater update after : mDrawingData[4] = tempc:120, 0
+
+04-10 18:52:47.644   385   385 I gralloc : Free handle(0x7f844ef300)
+
+04-10 18:52:47.672  1426  1437 I art     : Object allocation is busy now, so prior to grow the heap. New heap size is 60 MB
+
+04-10 18:52:47.677   385   385 I gralloc : Free handle(0x7f9167f500)
+
+04-10 18:52:47.680   385  2365 I gralloc : Alloc req: dev=0x7f91142540, w=2160, h=1920, format=0x2, usage=0xb00
+
+04-10 18:52:47.683   385  2365 I gralloc : Alloc handle(0x7f8ca23e00): interfmt=0x200000002, stride=2176, size=16973824
+
+04-10 18:52:47.694   385   385 I gralloc : Free handle(0x7f80fc6300)
+
+04-10 18:52:47.742 30063 30178 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[52,tid=30178,Native,Thread*=0xb1db7200,peer=0x12f01100,"FTcpMes-ansport"]
+
+04-10 18:52:47.912   385   385 I gralloc : Free handle(0x7f80fc6500)
+
+04-10 18:52:47.915   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-74 "Telekom-746635"WPA_PSK
+
+04-10 18:52:48.145  1426  1426 I WindowBlurViewManager: allowChangeBlurBackground, lastBlur interval:34392ms ago
+
+04-10 18:52:48.145  1426  1426 I WindowBlurViewManager: setBlurBackground()
+
+04-10 18:52:48.150   385   416 I gralloc : Alloc req: dev=0x7f91142540, w=134, h=240, format=0x1, usage=0x333
+
+04-10 18:52:48.151   385   416 I gralloc : Alloc handle(0x7f844ef200): interfmt=0x1, stride=192, size=184320
+
+04-10 18:52:48.152   385  1765 I gralloc : Free handle(0x7f844ef200)
+
+04-10 18:52:48.173  2028  2028 I K3V3CpuGovernorPolicy: close previously scene Hmp policy : 300 , 150
+
+04-10 18:52:48.187  2066  2066 I HwLauncher: Launcher.Utilities  unread scaledHeight = 67;sBigIconSize = 180
+
+04-10 18:52:48.189  2066  2315 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+
+04-10 18:52:48.189  2066  2315 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+
+04-10 18:52:48.227 30063 30179 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[68,tid=30179,Native,Thread*=0xacd63500,peer=0x12f520a0,"FTcpListener"]
+
+04-10 18:52:48.949 30063 30183 W art     : Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[51,tid=30183,Native,Thread*=0xaed60a00,peer=0x12f610a0,"FTcpMes-1:36489"]
+
+04-10 18:52:48.993   956   966 I art     : GC statistics: 3 time(s), freed 3862(12MB) objects, paused 2.489ms total 115.338ms
+
+04-10 18:52:48.993   956   966 I art     : Background partial concurrent mark sweep GC freed 996(54KB) AllocSpace objects, 120(6MB) LOS objects, 7% free, 49MB/53MB, paused 1.793ms total 181.017ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:49.062   385   385 I gralloc : Free handle(0x7f80fc6f00)
+
+04-10 18:52:49.062   385   385 I gralloc : Free handle(0x7f8ca23300)
+
+04-10 18:52:49.065 30063 30063 I Choreographer: Skipped 92 frames!  The application may be doing too much work on its main thread.
+
+04-10 18:52:49.066   385   385 I gralloc : Free handle(0x7f844ef000)
+
+04-10 18:52:49.073   385 28308 I gralloc : Free handle(0x7f80fc6700)
+
+04-10 18:52:49.096   385   385 I gralloc : Free handle(0x7f80fc6a00)
+
+04-10 18:52:49.133   682  1029 I APM::AudioPolicyManager: stopOutput() output 6, stream 3, session 16
+
+04-10 18:52:49.133   682  1029 I APM::AudioPolicyManager: getNewOutputDevice() selected device 0
+
+04-10 18:52:49.133   682  1029 I APM::AudioPolicyManager: setOutputDevice() device 0x0000 delayMs 80 force 0
+
+04-10 18:52:49.133   682  1029 I APM::AudioPolicyManager: setOutputDevice() prevDevice 0x0002
+
+04-10 18:52:49.133   682  1029 I APM::AudioPolicyManager: setOutputDevice() setting same device 0x0000 or null device
+
+04-10 18:52:49.133   682  1029 I APM::AudioPolicyManager: checkOutputForStrategy() getDeviceForStrategy strategy=3 device=2
+
+04-10 18:52:49.254   956   966 I art     : Background sticky concurrent mark sweep GC freed 906(43KB) AllocSpace objects, 65(3MB) LOS objects, 7% free, 49MB/53MB, paused 22.496ms total 40.375ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:49.670   956   983 I art     : Waiting for a blocking GC Explicit
+
+04-10 18:52:49.698   956   966 I art     : Background partial concurrent mark sweep GC freed 7236(486KB) AllocSpace objects, 131(6MB) LOS objects, 7% free, 48MB/52MB, paused 1.764ms total 201.109ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:49.699   956   983 I art     : WaitForGcToComplete blocked for 28.586ms for cause Explicit
+
+04-10 18:52:49.699   956   983 I art     : Starting a blocking GC Explicit
+
+04-10 18:52:49.886   956   983 I art     : Explicit concurrent mark sweep GC freed 264(16KB) AllocSpace objects, 51(2MB) LOS objects, 7% free, 49MB/53MB, paused 1.566ms total 186.563ms at android.display thread CareAboutPauseTimes 1
+
+04-10 18:52:50.584   956   966 I art     : GC statistics: 1 time(s), freed 836(3MB) objects, paused 1.629ms total 16.552ms
+
+04-10 18:52:50.584   956   966 I art     : Background partial concurrent mark sweep GC freed 557(55KB) AllocSpace objects, 118(6MB) LOS objects, 7% free, 49MB/53MB, paused 1.748ms total 186.504ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:50.803   528   528 E Thermal-daemon: [flash_led] temp_new :36  temp_old :35
+
+04-10 18:52:50.803   528   528 E Thermal-daemon: Report temperature: [flash_led] temp :36  report_threshold:1
+
+04-10 18:52:50.804   528   528 E Thermal-daemon: [ap] temp_new :40  temp_old :41
+
+04-10 18:52:50.804   528   528 E Thermal-daemon: Report temperature: [ap] temp :40  report_threshold:1
+
+04-10 18:52:50.923   956  1286 I SendBroadcastPermission: action:android.net.wifi.RSSI_CHANGED, mPermissionType:0
+
+04-10 18:52:50.923   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-75 "Telekom-746635"WPA_PSK
+
+04-10 18:52:51.299   956   966 I art     : GC statistics: 1 time(s), freed 377(4MB) objects, paused 4.317ms total 26.844ms
+
+04-10 18:52:51.299   956   966 I art     : Background partial concurrent mark sweep GC freed 2150(145KB) AllocSpace objects, 116(6MB) LOS objects, 7% free, 49MB/53MB, paused 1.761ms total 183.219ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:52.007   956   966 I art     : GC statistics: 1 time(s), freed 352(3MB) objects, paused 1.260ms total 12.239ms
+
+04-10 18:52:52.007   956   966 I art     : Background partial concurrent mark sweep GC freed 1092(70KB) AllocSpace objects, 123(6MB) LOS objects, 7% free, 48MB/52MB, paused 1.791ms total 189.372ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:52.072   682  1084 I audio_hw_primary: do_out_standby standby: 0, out_device: 2
+
+04-10 18:52:52.086   682  1084 I audio_hw_primary: select_devices++ mode[0]
+
+04-10 18:52:52.086   682  1084 I audio_hw_primary: output_device_id is 0, output_route is null;input_source_id is 0, input_route is null.
+
+04-10 18:52:52.087   682  1084 I MAX98925_SPK: MAX98925 SPK POWER OFF
+
+04-10 18:52:52.088   682  1084 I dsp_common: dsp_common_control_algo:set device = 0
+
+04-10 18:52:52.088   682  1084 I dsp_maxim_ctl: maxim_get_prop: get codec_name succ, codec_name = hi6402
+
+04-10 18:52:52.088   682  1084 I dsp_maxim_ctl: maxim_get_prop: get multi mic function enable succ, multi_mic_enable = 0
+
+04-10 18:52:52.092   682  1084 I dsp_codec_ctl: codec_adsp_send_sync_cmd:ioctl ret=0
+
+04-10 18:52:52.092   682  1084 I dsp_maxim_ctl: smartpa_control success with value:0
+
+04-10 18:52:52.094   682  1084 I audio_pop: pop change S4 OL SWITCH SWITCH dir 0
+
+04-10 18:52:52.095   682  1084 I audio_pop: pop change S4 OR SWITCH SWITCH dir 0
+
+04-10 18:52:52.099   682  1084 I audio_pop: pop change SP IL SWITCH SWITCH dir 0
+
+04-10 18:52:52.100   682  1084 I audio_pop: pop change SP IR SWITCH SWITCH dir 0
+
+04-10 18:52:52.103   682  1084 I dsp_common: dsp_common_control_algo:set device = 0
+
+04-10 18:52:52.103   682  1084 I dsp_maxim_ctl: maxim_get_prop: get codec_name succ, codec_name = hi6402
+
+04-10 18:52:52.103   682  1084 I dsp_maxim_ctl: maxim_get_prop: get multi mic function enable succ, multi_mic_enable = 0
+
+04-10 18:52:52.103   682  1084 I audio_hw_primary: select_devices--
+
+04-10 18:52:52.663   956   966 I art     : GC statistics: 1 time(s), freed 337(3MB) objects, paused 1.892ms total 18.433ms
+
+04-10 18:52:52.663   956   966 I art     : Background partial concurrent mark sweep GC freed 971(49KB) AllocSpace objects, 114(6MB) LOS objects, 7% free, 48MB/52MB, paused 1.792ms total 177.154ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:52.705 30063 30072 W CursorWrapperInner: Cursor finalized without prior close()
+
+04-10 18:52:52.917  1346  1346 I wpa_supplicant: wlan0: HEART-BEAT-ACK: 79
+
+04-10 18:52:52.918   956  1608 W WifiMonitor: couldn't identify event type - HEART-BEAT-ACK: 79
+
+04-10 18:52:53.320   956   966 I art     : GC statistics: 1 time(s), freed 369(3MB) objects, paused 1.699ms total 15.655ms
+
+04-10 18:52:53.320   956   966 I art     : Background partial concurrent mark sweep GC freed 1367(76KB) AllocSpace objects, 115(6MB) LOS objects, 7% free, 48MB/52MB, paused 1.696ms total 184.884ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:53.928   956  1286 I SendBroadcastPermission: action:android.net.wifi.RSSI_CHANGED, mPermissionType:0
+
+04-10 18:52:53.928   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-75 "Telekom-746635"WPA_PSK
+
+04-10 18:52:54.022   956   966 I art     : GC statistics: 1 time(s), freed 882(3MB) objects, paused 3.979ms total 40.874ms
+
+04-10 18:52:54.023   956   966 I art     : Background partial concurrent mark sweep GC freed 1156(76KB) AllocSpace objects, 118(6MB) LOS objects, 7% free, 49MB/53MB, paused 1.786ms total 203.513ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:54.596   956   966 I art     : GC statistics: 1 time(s), freed 851(4MB) objects, paused 4.041ms total 25.613ms
+
+04-10 18:52:54.596   956   966 I art     : Background partial concurrent mark sweep GC freed 2036(111KB) AllocSpace objects, 141(8MB) LOS objects, 7% free, 49MB/53MB, paused 1.798ms total 208.996ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:55.132   956   966 I art     : GC statistics: 1 time(s), freed 6101(3MB) objects, paused 3.797ms total 30.968ms
+
+04-10 18:52:55.132   956   966 I art     : Background partial concurrent mark sweep GC freed 1731(101KB) AllocSpace objects, 134(8MB) LOS objects, 7% free, 49MB/53MB, paused 1.757ms total 194.119ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:55.654   956   966 I art     : GC statistics: 1 time(s), freed 789(3MB) objects, paused 1.807ms total 16.670ms
+
+04-10 18:52:55.654   956   966 I art     : Background partial concurrent mark sweep GC freed 1664(96KB) AllocSpace objects, 125(7MB) LOS objects, 7% free, 49MB/53MB, paused 1.843ms total 182.067ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:55.807   528   528 E Thermal-daemon: [flash_led] temp_new :35  temp_old :36
+
+04-10 18:52:55.807   528   528 E Thermal-daemon: Report temperature: [flash_led] temp :35  report_threshold:1
+
+04-10 18:52:55.808   528   528 E Thermal-daemon: [ap] temp_new :38  temp_old :40
+
+04-10 18:52:55.808   528   528 E Thermal-daemon: Report temperature: [ap] temp :38  report_threshold:1
+
+04-10 18:52:55.813  2028  2924 I ThermalStateManager: sensor name: cpu temperature: 38 , thermal action: ucurrent policy:0
+
+04-10 18:52:55.914  2028  2927 W SwitchManager: NoSuchMethod: IPowerManager setChargeHotLimit [int,int]
+
+04-10 18:52:55.915  2028  2927 I powergenie_jni: set charge limit 1: 0
+
+04-10 18:52:56.173   956   966 I art     : GC statistics: 1 time(s), freed 900(4MB) objects, paused 4.241ms total 25.961ms
+
+04-10 18:52:56.173   956   966 I art     : Background partial concurrent mark sweep GC freed 1702(100KB) AllocSpace objects, 124(7MB) LOS objects, 7% free, 49MB/53MB, paused 1.836ms total 183.741ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:56.693   956   966 I art     : GC statistics: 1 time(s), freed 802(3MB) objects, paused 1.784ms total 18.199ms
+
+04-10 18:52:56.693   956   966 I art     : Background partial concurrent mark sweep GC freed 1663(96KB) AllocSpace objects, 126(8MB) LOS objects, 7% free, 49MB/53MB, paused 1.816ms total 185.709ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:56.938   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-75 "Telekom-746635"WPA_PSK
+
+04-10 18:52:58.803  1448  1504 I PowerChecker: check to sleep
+
+04-10 18:52:58.804  1448  1504 W PowerChecker: window is not show or Occluded
+
+04-10 18:52:59.593   956   966 I art     : GC statistics: 1 time(s), freed 896(4MB) objects, paused 3.856ms total 25.676ms
+
+04-10 18:52:59.593   956   966 I art     : Background partial concurrent mark sweep GC freed 1367(88KB) AllocSpace objects, 121(7MB) LOS objects, 7% free, 49MB/53MB, paused 1.825ms total 180.580ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:52:59.948   956  1286 I SendBroadcastPermission: action:android.net.wifi.RSSI_CHANGED, mPermissionType:0
+
+04-10 18:52:59.948   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-76 "Telekom-746635"WPA_PSK
+
+04-10 18:53:00.004  1426  1426 I TimeManager: receiver action = android.intent.action.TIME_TICK
+
+04-10 18:53:00.005  2066  2066 I HwLauncher: Model  onReceive intent=Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+
+04-10 18:53:00.005  2066  2066 I HwLauncher: Model  onReceive user=UserHandle{0}
+
+04-10 18:53:00.010  9234  9484 I Step_LSC: 80000309|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+
+04-10 18:53:00.036  2066  2066 I HwLauncher: CalenderDynamicUpdater date changed begin
+
+04-10 18:53:00.036  2066  2066 I HwLauncher: CalenderDynamicUpdater date changed end
+
+04-10 18:53:00.037  2066  2066 I HwLauncher: ClockDynamicUpdater date changed begin
+
+04-10 18:53:00.037  2066  2066 I HwLauncher: ClockDynamicUpdater date changed end
+
+04-10 18:53:00.038  2066  2242 E HwLauncher: SettingsEx , no such field.
+
+04-10 18:53:00.038  2066  2242 W HwLauncher: Clock getDataFormat the getSystemString failed.
+
+04-10 18:53:00.039  2066  2242 I HwLauncher: DynamicIconData , getDrawableForDynamic begin, pkg = com.android.deskclock, picName = deskclock_bg
+
+04-10 18:53:00.039  2066  2242 I HwLauncher: DynamicIconData , getDrawableForDynamic end, pkg = com.android.deskclock, picName = deskclock_bg
+
+04-10 18:53:00.040  2066  2242 I HwLauncher: ClockDynamicUpdater clock update folder at ClockDynamicUpdater
+
+04-10 18:53:00.040  2066  2242 I HwLauncher: DynamicUpdater updateBitmap end and send update message
+
+04-10 18:53:00.040  2066  2066 I HwLauncher: DynamicUpdater call updateFolder
+
+04-10 18:53:00.065   956   966 I art     : GC statistics: 1 time(s), freed 5461(3MB) objects, paused 1.387ms total 18.205ms
+
+04-10 18:53:00.065   956   966 I art     : Background partial concurrent mark sweep GC freed 1169(68KB) AllocSpace objects, 122(7MB) LOS objects, 7% free, 49MB/53MB, paused 1.697ms total 185.220ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:53:00.585   956   966 I art     : GC statistics: 1 time(s), freed 289(4MB) objects, paused 1.731ms total 15.732ms
+
+04-10 18:53:00.585   956   966 I art     : Background partial concurrent mark sweep GC freed 464(29KB) AllocSpace objects, 122(8MB) LOS objects, 7% free, 49MB/53MB, paused 1.379ms total 172.848ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:53:00.810   528   528 E Thermal-daemon: [charger_ic] temp_new :35  temp_old :36
+
+04-10 18:53:00.810   528   528 E Thermal-daemon: Report temperature: [charger_ic] temp :35  report_threshold:1
+
+04-10 18:53:00.812   528   528 E Thermal-daemon: [ap] temp_new :37  temp_old :38
+
+04-10 18:53:00.812   528   528 E Thermal-daemon: Report temperature: [ap] temp :37  report_threshold:1
+
+04-10 18:53:01.077   956   966 I art     : GC statistics: 1 time(s), freed 252(3MB) objects, paused 1.798ms total 17.103ms
+
+04-10 18:53:01.077   956   966 I art     : Background partial concurrent mark sweep GC freed 418(26KB) AllocSpace objects, 125(8MB) LOS objects, 7% free, 49MB/53MB, paused 1.666ms total 180.135ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:53:01.577   956   966 I art     : GC statistics: 1 time(s), freed 255(3MB) objects, paused 4.203ms total 26.193ms
+
+04-10 18:53:01.577   956   966 I art     : Background partial concurrent mark sweep GC freed 411(26KB) AllocSpace objects, 120(8MB) LOS objects, 7% free, 49MB/53MB, paused 2.042ms total 179.118ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:53:01.607   956  2061 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+
+04-10 18:53:02.064   956   966 I art     : GC statistics: 1 time(s), freed 299(3MB) objects, paused 1.746ms total 17.287ms
+
+04-10 18:53:02.064   956   966 I art     : Background partial concurrent mark sweep GC freed 425(27KB) AllocSpace objects, 123(8MB) LOS objects, 7% free, 49MB/53MB, paused 1.709ms total 181.838ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:53:02.402   956   987 E SensorHub: batch called handle:3 sample_ns:300000000 latency_ns:0
+
+04-10 18:53:02.406  1448  1475 I KeyguardService: KGSvcCall onStartedGoingToSleep. 3
+
+04-10 18:53:02.407  1448  1475 I ThemeUnlock: mThemeUnlcokService = null
+
+04-10 18:53:02.407  2066  2066 I HwLauncher: Launcher onPause()
+
+04-10 18:53:02.413  2066 30277 I HwLauncher: Launcher.MotionManager stopMotionAppsReco begin,flg = 402
+
+04-10 18:53:02.413  2066 30277 W HwLauncher: Launcher.MotionManager stopMotionAppsReco service flg 402 is unavailable
+
+04-10 18:53:02.413  2066 30278 I HwLauncher: Launcher.MotionManager stopMotionAppsReco begin,flg = 403
+
+04-10 18:53:02.413  2066 30278 W HwLauncher: Launcher.MotionManager stopMotionAppsReco service flg 403 is unavailable
+
+04-10 18:53:02.419   385   418 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=1920, format=0x1, usage=0x333
+
+04-10 18:53:02.421   385   418 I gralloc : Alloc handle(0x7f80fc6d00): interfmt=0x1, stride=1088, size=8486912
+
+04-10 18:53:02.423   385  1765 I gralloc : Free handle(0x7f80fc6d00)
+
+04-10 18:53:02.441  2066  2066 I HwLauncher: Launcher mUnlockScreenRunnbale  getOrientationEnabled false 
+
+04-10 18:53:02.441  2066  2066 I HwLauncher: Launcher onStop()
+
+04-10 18:53:02.560   956   966 I art     : GC statistics: 1 time(s), freed 233(3MB) objects, paused 1.675ms total 16.872ms
+
+04-10 18:53:02.560   956   966 I art     : Background partial concurrent mark sweep GC freed 1895(149KB) AllocSpace objects, 84(5MB) LOS objects, 7% free, 49MB/53MB, paused 1.865ms total 192.819ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+
+04-10 18:53:02.585   956   987 W HwScreenOnProximityLock: releaseLock: return because sensor listener is held = false
+
+04-10 18:53:02.585  1448  1481 I KeyguardService: KGSvcCall onScreenTurnedOff.
+
+04-10 18:53:02.586  1448  1481 I PowerChecker: cancel listen for userActivity
+
+04-10 18:53:02.889   956   956 I SendBroadcastPermission: action:android.intent.action.SCREEN_OFF, mPermissionType:0
+
+04-10 18:53:02.889  1448  1481 I KeyguardService: KGSvcCall onFinishedGoingToSleep. 3
+
+04-10 18:53:02.889  1448  1448 I KeyguardViewMediator: fingerprint listening started
+
+04-10 18:53:02.892  1448  1448 I KeyguardUpdateMonitor: startListeningForFingerprint() blocked.0
+
+04-10 18:53:02.956   956  1286 E WifiConfigStore: updateConfiguration freq=2462 BSSID=88:d2:74:bb:87:cd RSSI=-76 "Telekom-746635"WPA_PSK
+
+04-10 18:53:02.958   682  1088 I soundtrigger_msg: sound_trigger_set_parameters:set_parameters string![screen_state=off]
+
+04-10 18:53:02.964   956  1286 E native  : do suspend true
+
+04-10 18:53:03.003  1426  1426 I TimeManager: receiver action = android.intent.action.SCREEN_OFF
+
+04-10 18:53:03.012  1499  1499 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_OFF
+
+04-10 18:53:03.015  1499  1499 I HwSystemManager: AutoCleanReceiveServer:telemamanger state isIdle:false
+
+04-10 18:53:03.015  1499  1499 I HwSystemManager: AutoCleanReceiveServer:checkToStartCleanService, current is not charging, need not start clean service
+
+04-10 18:53:03.017  1499  1919 I HwSystemManager: UsageStatusHelper: recordScreenStatus screenOn =false
+
+04-10 18:53:03.017  1499  1919 I HwSystemManager: UsageStatusHelper: isWeekend = true
+
+04-10 18:53:03.017  1499  1919 I HwSystemManager: UsageStatusHelper: recordScreenStatus isWeekend =true
+
+04-10 18:53:03.021  1499  1919 I HwSystemManager: UsageStatusHelper: recordScreenStatus times =141435
+
+04-10 18:53:03.025   956  4048 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+
+04-10 18:53:03.033  1499  1880 E HwSystemManager: CommonMethodUtil:/getTemplateMobileAutomatically: no SIM card using data
+
+04-10 18:53:03.033  1499  1880 E HwSystemManager: TrafficNotifyAfterLocked:analyseTrafficAfterLocked: network template is null!
+
+04-10 18:53:03.033  1499  1829 E HwSystemManager: NatTrafficNotifyService:imsi is null, so return
+
+04-10 18:53:03.038  1499  1919 I HwSystemManager: SmartProvider:retUri =content://com.huawei.android.smartpowerprovider/usagestatus/350252
+
+04-10 18:53:03.041  2066  2066 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+
+04-10 18:53:03.043   956  1927 I GpsLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_OFF
+
+04-10 18:53:03.043   956  1927 I GpsLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:false
+
+04-10 18:53:03.043   956  1927 I GpsLocationProvider: disableGps:false  isEnabled()=true
+
+04-10 18:53:03.045  2028  2927 I ThermalStateManager: handle action thermal policy:301
+
+04-10 18:53:03.045  2028  2938 W PGApi_client: recv actoionId = 20004, action = com.huawei.pgmng.PGAction@eaf1c1b actionId =20004 pkg =null extend1 =76 extend2 = flag =3 type =2
+
+04-10 18:53:03.050  2028  2927 I ash     : ash->screen off
+
+04-10 18:53:03.051  9234  9234 I Step_StandReportReceiver: 80000309|onReceive action: android.intent.action.SCREEN_OFF
+
+04-10 18:53:03.094 23940 24981 I NearbyDiscovery: FastPairHandler: Received action android.intent.action.SCREEN_OFF [CONTEXT service_id=49 ]
+
+04-10 18:53:03.096 23940 24981 I NearbyDiscovery: FastPairScanner2: Stopping scan [CONTEXT service_id=49 ]
+
+04-10 18:53:03.096 23940 24981 I BluetoothLeScanner: stopScan is called
+
+04-10 18:53:03.097  1850 12874 I Bluetooth_app: BluetoothProfileService:isAvailable(), mStartError=false, mCleaningUp=false
+
+04-10 18:53:03.104 23940 24755 I NearbySharing: Screen is locked [CONTEXT service_id=194 ]
+
+04-10 18:53:03.104 23940 24755 I NearbySharing: Failed to stop scanning because weren't scanning. [CONTEXT service_id=194 ]
+
+04-10 18:53:03.104 23940 24755 I NearbySharing: Stopping discovery because the screen is locked. [CONTEXT service_id=194 ]
+
+04-10 18:53:03.104 23940 24755 I NearbySharing: Can't stop advertising FastInitiation. Not advertising. [CONTEXT service_id=194 ]
+
+04-10 18:53:03.104 23940 24755 I NearbySharing: Stopping Fast Init advertisement because we're not scanning. [CONTEXT service_id=194 ]
+
+04-10 18:53:03.104 23940 24755 I NearbySharing: Failed to stop advertising because we weren't advertising. [CONTEXT service_id=194 ]
+
+04-10 18:53:03.104 23940 24755 I NearbySharing: Stopping advertising because the screen is locked. [CONTEXT service_id=194 ]
+
+04-10 18:53:03.105 23940 24755 I NearbySharing: Stopping Fast Init because the screen is locked. [CONTEXT service_id=194 ]
+
+04-10 18:53:03.105 23940 24755 I BluetoothLeScanner: stopScan is called
+
+04-10 18:53:03.106  1850 12874 I Bluetooth_app: BtGatt.GattService:stopScan() - queue size =2
+
+04-10 18:53:03.106  1850  2368 I Bluetooth_app: BtGatt.ScanManager:handleMessage - msg.what=1
+
+04-10 18:53:03.106  1850  1862 I Bluetooth_app: BluetoothProfileService:isAvailable(), mStartError=false, mCleaningUp=false
+
+04-10 18:53:03.106  1850  2368 I Bluetooth_app: BtGatt.ScanManager:handleStopScan()
+
+04-10 18:53:03.106  1850  2368 I Bluetooth_app: BtGatt.ScanManager:numRegularScanClients num=0
+
+04-10 18:53:03.106  1850  2368 I Bluetooth_app: BtGatt.ScanManager:stopRegularScan() stop scan
+
+04-10 18:53:03.107  1850  1933 I bt_btif : BTA_DmBleObserve:start = 0 
+
+04-10 18:53:03.107  1850  1933 I bt_btif : BTA_DmBleScanFilterSetup: 1
+
+04-10 18:53:03.107  1850  2419 I bt_btm  : BTM_BleObserve : scan_type:0, 8000, 800
+
+04-10 18:53:03.107  1850  2419 I bt_btm  : btm_ble_stop_scan 
+
+04-10 18:53:03.107  1850  2419 I bt_btm  : btm_update_scanner_filter_policy
+
+04-10 18:53:03.107  1850  2419 I bt_btm  :  BTM_BleAdvFilterParamSetup
+
+04-10 18:53:03.107  1850  2419 I bt_btm  : BTM: BTM_VendorSpecificCommand: Opcode: 0xFD57, ParamLen: 3.
+
+04-10 18:53:03.109  1850  1862 I Bluetooth_app: BtGatt.GattService:unregisterClient() - clientIf=5
+
+04-10 18:53:03.109  1850  2419 I bt_att  : GATT_Deregister gatt_if=5
+
+04-10 18:53:03.109  1850  2419 I bt_att  : GATT_Listen gatt_if=5
+
+04-10 18:53:03.109  1850  2419 I bt_btm  : BTM_BleUpdateAdvFilterPolicy
+
+04-10 18:53:03.109  1850  2419 I bt_btm  : BTM_ReadConnectability
+
+04-10 18:53:03.109  1850  2419 I bt_btm  : btm_ble_set_connectability mode=0x0 combined_mode=0x1
+
+04-10 18:53:03.113  1850  1866 I Bluetooth_app: BluetoothProfileService:isAvailable(), mStartError=false, mCleaningUp=false
+
+04-10 18:53:03.121  1850  1866 I Bluetooth_app: BtGatt.GattService:stopScan() - queue size =1
+
+04-10 18:53:03.122  1850  2483 I Bluetooth_app: BluetoothProfileService:isAvailable(), mStartError=false, mCleaningUp=false
+
+04-10 18:53:03.124  1850  2483 I Bluetooth_app: BtGatt.GattService:unregisterClient() - clientIf=6
+
+04-10 18:53:03.125  1850  2419 I bt_att  : GATT_Deregister gatt_if=6
+
+04-10 18:53:03.125  1850  2419 I bt_att  : GATT_Listen gatt_if=6
+
+04-10 18:53:03.125  1850  2419 I bt_btm  : BTM_BleUpdateAdvFilterPolicy
+
+04-10 18:53:03.125  1850  2419 I bt_btm  : BTM_ReadConnectability
+
+04-10 18:53:03.125  1850  2419 I bt_btm  : btm_ble_set_connectability mode=0x0 combined_mode=0x1
+
+04-10 18:53:03.125 23940 24755 I NearbySharing: Stopped scanning for FastInitiation [CONTEXT service_id=194 ]
+
+04-10 18:53:03.127 23940 24755 I NearbySharing: Fast Initiation Scanning has stopped [CONTEXT service_id=194 ]
+
+04-10 18:53:03.141  1850  1933 W bt_btif : HAL bt_gatt_callbacks->client->scan_filter_param_cb
+
+04-10 18:53:03.141  1850  1933 I Bluetooth_app: BtGatt.GattService:onScanFilterParamsConfigured() - clientIf=5, status=0, action=1, availableSpace=15
+
+04-10 18:53:03.141  1850  1933 I Bluetooth_app: BtGatt.ScanManager:callback done for clientIf - 5 status - 0
+
+04-10 18:53:03.141  1850  2368 I Bluetooth_app: BtGatt.ScanManager:isOpportunisticScanClient() clientScanMode=2
+
+04-10 18:53:03.141  1850  2368 I Bluetooth_app: BtGatt.ScanManager:configureRegularScanParams() - queue=1
+
+04-10 18:53:03.141  1850  2368 I Bluetooth_app: BtGatt.ScanManager:configureRegularScanParams() - ScanSetting Scan mode=-1 mLastConfiguredScanSetting=0
+
+04-10 18:53:03.142  1850  2368 I Bluetooth_app: BtGatt.ScanManager:configureRegularScanParams() - queue emtpy, scan stopped
+
+04-10 18:53:03.142  1850  2368 I Bluetooth_app: BtGatt.ScanManager:handleMessage - msg.what=1
+
+04-10 18:53:03.142  1850  2368 I Bluetooth_app: BtGatt.ScanManager:handleStopScan()
+
+04-10 18:53:03.142  1850  2368 I Bluetooth_app: BtGatt.ScanManager:numRegularScanClients num=0
+
+04-10 18:53:03.142  1850  2368 I Bluetooth_app: BtGatt.ScanManager:stopRegularScan() stop scan
+
+04-10 18:53:03.143  1850  1933 I bt_btif : BTA_DmBleObserve:start = 0 
+
+04-10 18:53:03.143  1850  2419 I bt_btm  : BTM_BleObserve : scan_type:0, 8000, 800
+
+04-10 18:53:03.143  1850  2419 E bt_btm  : BTM_BleObserve Observe not active
+
+04-10 18:53:03.143  1850  1933 I bt_btif : BTA_DmBleScanFilterSetup: 1
+
+04-10 18:53:03.143  1850  2419 I bt_btm  :  BTM_BleAdvFilterParamSetup
+
+04-10 18:53:03.143  1850  2419 I bt_btm  : BTM: BTM_VendorSpecificCommand: Opcode: 0xFD57, ParamLen: 3.
+
+04-10 18:53:03.152  1850  1933 W bt_btif : HAL bt_gatt_callbacks->client->scan_filter_param_cb
+
+04-10 18:53:03.152  1850  1933 I Bluetooth_app: BtGatt.GattService:onScanFilterParamsConfigured() - clientIf=6, status=0, action=1, availableSpace=16
+
+04-10 18:53:03.152  1850  1933 I Bluetooth_app: BtGatt.ScanManager:callback done for clientIf - 6 status - 0
+
+04-10 18:53:03.152  1850  2368 I Bluetooth_app: BtGatt.ScanManager:isOpportunisticScanClient() clientScanMode=2
+
+04-10 18:53:03.152  1850  2368 I Bluetooth_app: BtGatt.ScanManager:configureRegularScanParams() - queue=0
+
+04-10 18:53:03.152  1850  2368 I Bluetooth_app: BtGatt.ScanManager:configureRegularScanParams() - ScanSetting Scan mode=-2147483648 mLastConfiguredScanSetting=-1
+
+04-10 18:53:03.152  1850  2368 I Bluetooth_app: BtGatt.ScanManager:configureRegularScanParams() - queue emtpy, scan stopped
+
+04-10 18:53:03.189  2028  2927 I WakelockMonitor: charging state and not start wakelock monitor.
+
+04-10 18:53:03.347   956  1567 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+
+04-10 18:53:03.753  2028  2028 I K3V3CpuGovernorPolicy: set scene Hmp policy : 1024 , 824
+
+04-10 18:53:06.839  2028  2028 I PGUtils : defaultSmsApplication: com.android.mms
+
+04-10 18:53:06.844  2028  2049 I PgedBinderListener: kstate callback type:8 value1=30063 value2=KILLED
+
+04-10 18:53:07.029   682  1711 I AudioMixer: Pid:682 deleteTrackName(1)
+
+04-10 18:53:07.078  2028  2028 I AppsCleanUp: Clean Apps Num:1, clean type is 1
+
+04-10 18:53:07.080  2028  2028 I AlarmRestrict: [pending] net alarms
+
+04-10 18:53:07.085   956  2020 E HsmCoreServiceImpl: onTransact in code is: 102
+
+04-10 18:53:07.085   956  2020 I MediaProcessHandler: processOp opType: 1, uid: 10120, pid: 30063
+
+04-10 18:53:07.085   956  2020 W MediaProcessHandler: remove target not exist, maybe the UI process: uid: 10120, pid: 30063
+
+04-10 18:53:07.412   956  1265 W AlarmManager: WAKEUP alarm trigger action = com.android.internal.policy.impl.PhoneWindowManager.DELAYED_KEYGUARD elapsed = 1235147
+
+04-10 18:53:07.436  1448  1448 W KeyguardViewMediator: KGView Show Keyguard View.
+
+04-10 18:53:07.471  1448  1448 I SendBroadcastPermission: action:com.android.keyguard.keyguardlocked, mPermissionType:0
+
+04-10 18:53:07.487  2066  2079 I HwLauncher: Launcher.LauncherProvider receive lockedEventByCallProvider method :keyguard_locked
+
+04-10 18:53:07.487  2066  2066 I HwLauncher: Launcher  doLockCall()
+
+04-10 18:53:07.487  2066  2066 I HwLauncher: Launcher showAllApps: no need showAllApps , mIsHomeAniAppsHidden = false
+
+04-10 18:53:07.487  2066  2066 I HwLauncher: Launcher hideAllApps: set all apps view INVISIBLE
+
+04-10 18:53:07.488  2066  2066 I HwLauncher: Launcher  setAllAppsVisible: visible -> 4
+
+04-10 18:53:07.488  1448 28052 I LauncherInteractiveUtil: Call launcher event succ. lock=true;  0; null
+
+04-10 18:53:07.488  2066  2066 I HwLauncher: Launcher  setAllAppsVisible: mHotseat  , visible = 4
+
+04-10 18:53:07.489  2066  2066 I HwLauncher: Launcher  setAllAppsVisible: mQuickNavigation , visible = 4
+
+04-10 18:53:07.489  2066  2066 I HwLauncher: LauncherApplication  load animation parmeter over
+
+04-10 18:53:07.513  1448  1448 I KeyguardViewManager:     wallpaper = android.graphics.drawable.BitmapDrawable@36181c5, mIsWallpaperClamp = false
+
+04-10 18:53:07.514  1448  1448 I KeyguardViewManager: Keyguard updateShowWallpaper show =false
+
+04-10 18:53:07.533  1448  1448 E KeyguardHostView: KeyguardHostView()
+
+04-10 18:53:07.612  1448  1448 E AbsClockView: In setFactory...
+
+04-10 18:53:07.612  1448  1448 E HwClockView: In HwClockView...
+
+04-10 18:53:07.714  1448  1448 I MagazineUtils: is magazine unlock on, lockStyle = magazine
+
+04-10 18:53:07.724  1448  1448 E AbsClockView: In setFactory...
+
+04-10 18:53:07.724  1448  1448 E HwClockView: In HwClockView...
+
+04-10 18:53:07.746  1448  1448 E KeyguardHostView: multi_user selector disable as users is null or only one user exists.
+
+04-10 18:53:07.750  1448  1448 I HwLockScreenImpl: HwLockScreenImpl construct
+
+04-10 18:53:07.750  1448  1448 I LockScreenCallbackImpl: LockScreenCallbackImpl init
+
+04-10 18:53:07.750  1448  1448 I LockScreenCallbackImpl: initDoubleCard .. mIsMultiSimEnabled :true
+
+04-10 18:53:07.750  1448  1448 I HwLockScreenImpl: init
+
+04-10 18:53:07.751  1448  1448 I HwLockScreenImpl: loadMagazine
+
+04-10 18:53:07.767  1448  1448 E AbsClockView: In setFactory...
+
+04-10 18:53:07.767  1448  1448 E HwClockView: In HwClockView...
+
+04-10 18:53:07.842  1448  1448 I MagazineUtils: is magazine unlock on, lockStyle = magazine
+
+04-10 18:53:07.846  1448  1448 I HwLockScreenImpl: keyguard transparent = false
+
+04-10 18:53:07.846  1448  1448 I HwLockScreenImpl: onResume: 2
+
+04-10 18:53:07.847  1448  1448 I LockScreenCallbackImpl: traverseCardStatus : mUpdateMonitor.getSimState(0)=ABSENT
+
+04-10 18:53:07.847  1448  1448 I LockScreenCallbackImpl: traverseCardStatus : mUpdateMonitor.getSimState(1)=ABSENT
+
+04-10 18:53:07.848  1448  1448 W MagazineLockScreen: initViewVisiblity mMusicView is null
+
+04-10 18:53:07.857  1448  1448 I HwUpdateMonitor: registerCallback com.huawei.keyguard.widget.StepCounterView$1@2061058, callback size = 0
+
+04-10 18:53:07.857  1448  1448 W StepCounterView: onStepCounterChange info is null - no change happened!
+
+04-10 18:53:07.857  1448  1448 I HwUpdateMonitor: registerMonitor
+
+04-10 18:53:07.858  1448  1448 W WeatherMonitor: LockScreenMonitor Register Weather Monitor
+
+04-10 18:53:07.864  1448  1448 I HwLockScreenImpl: onAttachedToWindow
+
+04-10 18:53:07.864  1448  1448 I HwLockScreenImpl: setLayoutHeight hide widget
+
+04-10 18:53:07.878  1448 28069 I BitmapFactory: set decoder allocator to gralloc
+
+04-10 18:53:07.878  1448 28069 I gralloc : Alloc req: dev=0x7fa8bcd800, w=289, h=289, format=0x1, usage=0x2000003
+
+04-10 18:53:07.878  1448 28069 I gralloc : Alloc handle(0x7f8977f800): interfmt=0x1, stride=320, size=376832
+
+04-10 18:53:07.886  1448  1448 W WallpaperSwitch: changePictureFavoriteStatus invalid parameter!
+
+04-10 18:53:07.886  1448 28069 I gralloc : Alloc req: dev=0x7fa8bcd800, w=867, h=867, format=0x1, usage=0x2000003
+
+04-10 18:53:07.886  1448  1448 W BigPictureManager: The given keyId is invalid!
+
+04-10 18:53:07.886  1448  1448 W WallpaperSwitch: changePictureFavoriteStatus invalid parameter!
+
+04-10 18:53:07.888  1448 28069 I gralloc : Alloc handle(0x7f8977f200): interfmt=0x1, stride=896, size=3112960
+
+04-10 18:53:07.888  1448  1448 I WallpaperUtils: theme wallpaper=android.graphics.drawable.BitmapDrawable@36181c5
+
+04-10 18:53:07.888  1448  1448 I WallpaperUtils: view size=1080x1920
+
+04-10 18:53:07.888  1448  1448 I WallpaperUtils: isWallpaperClamp=false
+
+04-10 18:53:07.891  1448  1724 I WeatherMonitor: getCurrentWeatherInfo currentTemperature is :8.0 mWeatherIcon Id is: 33
+
+04-10 18:53:07.901  1448 28069 I gralloc : Free handle(0x7f8977f200)
+
+04-10 18:53:07.901  1448 28069 I gralloc : Free handle(0x7f8977f800)
+
+04-10 18:53:07.904  1448 28069 I BitmapFactory: set decoder allocator to gralloc
+
+04-10 18:53:07.904  1448 28069 I gralloc : Alloc req: dev=0x7fa8bcd800, w=289, h=289, format=0x1, usage=0x2000003
+
+04-10 18:53:07.905  1448 28069 I gralloc : Alloc handle(0x7f8977f800): interfmt=0x1, stride=320, size=376832
+
+04-10 18:53:07.909  1448  1448 I SendBroadcastPermission: action:com.android.systemui.action.CHANGE_STATUSBAR_DISPLAYMODE, mPermissionType:0
+
+04-10 18:53:07.911  1448 28069 I gralloc : Alloc req: dev=0x7fa8bcd800, w=867, h=867, format=0x1, usage=0x2000003
+
+04-10 18:53:07.912  1448  1448 I KeyguardUpdateMonitor: keyguard blur, dispatch set blur background : bitmap = android.graphics.Bitmap@a503cb3
+
+04-10 18:53:07.912  1448  1448 W MagazineInfoView: updateMagazineInfo skipped as Duplicate
+
+04-10 18:53:07.913  1448 28069 I gralloc : Alloc handle(0x7f8977f200): interfmt=0x1, stride=896, size=3112960
+
+04-10 18:53:07.913  1448  1448 I HwMusicManager: registerCallback com.android.huawei.music.HwMusicView$1@c1a9270, musicInfoCallback size = 0
+
+04-10 18:53:07.913  1448  1448 I HwMusic : beginObserver mMediaController=null
+
+04-10 18:53:07.918  1448  1448 W HwMusic : findCurrentMediaPlayPackage sessions size is 0
+
+04-10 18:53:07.918  1448  1448 W HwMusic : updatePlayPauseState is not support music package mCurrentPlayPackage=null
+
+04-10 18:53:07.932  1346  1346 I wpa_supplicant: wlan0: HEART-BEAT-ACK: 80
+
+04-10 18:53:07.933   956  1608 W WifiMonitor: couldn't identify event type - HEART-BEAT-ACK: 80
+
+04-10 18:53:07.936  1448 28069 I gralloc : Free handle(0x7f8977f200)
+
+04-10 18:53:07.936  1448 28069 I gralloc : Free handle(0x7f8977f800)
+
+04-10 18:53:07.945  1448 28069 I BitmapFactory: set decoder allocator to gralloc
+
+04-10 18:53:07.945  1448 28069 I gralloc : Alloc req: dev=0x7fa8bcd800, w=289, h=289, format=0x1, usage=0x2000003
+
+04-10 18:53:07.946  1448 28069 I gralloc : Alloc handle(0x7f8977f800): interfmt=0x1, stride=320, size=376832
+
+04-10 18:53:07.952  1448 28069 I gralloc : Alloc req: dev=0x7fa8bcd800, w=867, h=867, format=0x1, usage=0x2000003
+
+04-10 18:53:07.954  1448 28069 I gralloc : Alloc handle(0x7f8977f200): interfmt=0x1, stride=896, size=3112960
+
+04-10 18:53:07.964  1448 28069 I gralloc : Free handle(0x7f8977f200)
+
+04-10 18:53:07.964  1448 28069 I gralloc : Free handle(0x7f8977f800)
+
+04-10 18:53:07.966  1448 28069 I BitmapFactory: set decoder allocator to gralloc
+
+04-10 18:53:07.966  1448 28069 I gralloc : Alloc req: dev=0x7fa8bcd800, w=289, h=289, format=0x1, usage=0x2000003
+
+04-10 18:53:07.966  1448 28069 I gralloc : Alloc handle(0x7f8977f800): interfmt=0x1, stride=320, size=376832
+
+04-10 18:53:07.972  1448 28069 I gralloc : Alloc req: dev=0x7fa8bcd800, w=867, h=867, format=0x1, usage=0x2000003
+
+04-10 18:53:07.974  1448 28069 I gralloc : Alloc handle(0x7f8977f200): interfmt=0x1, stride=896, size=3112960
+
+04-10 18:53:07.984  1448 28069 I gralloc : Free handle(0x7f8977f200)
+
+04-10 18:53:07.985  1448 28069 I gralloc : Free handle(0x7f8977f800)
+
+04-10 18:53:08.010  1448  1448 I HwUpdateMonitor: registerCallback com.huawei.keyguard.widget.StepCounterView$1@7fb9b7a, callback size = 1
+
+04-10 18:53:08.010  1448  1448 W StepCounterView: onStepCounterChange info is null - no change happened!
+
+04-10 18:53:08.013  1448  1448 I HwUpdateMonitor: registerCallback com.android.huawei.hwlockscreen.HwLockScreenWeatherView$2@9dc8f2b, callback size = 2
+
+04-10 18:53:08.014  1448  1448 W HwLockScreenWeatherView: onWeatherChange : displayInfo is null!
+
+04-10 18:53:08.017  1448  1448 W WindowCounter: Window maybe leaked. [com.android.keyguard.ClockView]  1
+
+04-10 18:53:08.020  1448  1448 I SendBroadcastPermission: action:com.android.keyguard.intent.action.ACTION_LYRICS, mPermissionType:0
+
+04-10 18:53:08.023  1448  1448 W WindowCounter: Window maybe leaked. [com.android.keyguard.ClockView]  2
+
+04-10 18:53:08.039  1448  1448 I CameraLayout: onAttachedToWindow 
+
+04-10 18:53:08.039  1448  1448 I UnderLayer: UnderLayer view
+
+04-10 18:53:08.047  1448  1448 I HwNotification: mNotificationListener registerNotification
+
+04-10 18:53:08.047  1448  1448 W HwNotification: HwNotification updateNotifications size is zero
+
+04-10 18:53:08.051  1448  1448 I MagazineUtils: is magazine unlock on, lockStyle = magazine
+
+04-10 18:53:08.053  1448  1448 I MonteGrayView: keyguard blur, on set blur background : bitmap = android.graphics.Bitmap@a503cb3, visibility = 0, mDrawableBlur = android.graphics.drawable.BitmapDrawable@287cc34
+
+04-10 18:53:08.056  1448  1448 I SendBroadcastPermission: action:com.android.keyguard.intent.action.ACTION_LYRICS, mPermissionType:0
+
+04-10 18:53:08.063  1448  1448 I KeyguardViewMediator: fingerprint listening started
+
+04-10 18:53:08.065  1448  1448 I KeyguardUpdateMonitor: startListeningForFingerprint() blocked.0
+
+04-10 18:53:08.066  1448  1448 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+
+04-10 18:53:08.082  1448  1577 I OpenGLRenderer: Initialized EGL, version 1.4
+
+04-10 18:53:08.087   385  1765 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=1920, format=0x1, usage=0xb00
+
+04-10 18:53:08.089   385  1765 I gralloc : Alloc handle(0x7f80fc6000): interfmt=0x200000001, stride=1088, size=8486912
+
+04-10 18:53:08.089   385  1765 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=1920, format=0x1, usage=0xb00
+
+04-10 18:53:08.093   385  1765 I gralloc : Alloc handle(0x7f844ef100): interfmt=0x200000001, stride=1088, size=8486912
+
+04-10 18:53:08.093   385  1765 I gralloc : Alloc req: dev=0x7f91142540, w=1080, h=1920, format=0x1, usage=0xb00
+
+04-10 18:53:08.093   385  1765 I gralloc : Alloc handle(0x7f80fc6200): interfmt=0x200000001, stride=1088, size=8486912
+
+04-10 18:53:08.098  1448  1448 W HwLockScreenWeatherView: onWeatherChange : displayInfo is null!
+
+04-10 18:53:08.102  1448  1448 I KG_FP.Validation: hasWindowFocus:true
+
+04-10 18:53:08.103  1448  1448 I KeyguardUpdateMonitor: startListeningForFingerprint() blocked.0
+
+04-10 18:53:08.104  1448  1448 I SendBroadcastPermission: action:com.android.keyguard.intent.action.ACTION_LYRICS, mPermissionType:0
+
+04-10 18:53:08.127  1426  1426 W View    : requestLayout() improperly called by com.android.systemui.statusbar.phone.IconMerger{6604930 V.E...... ......ID 0,0-216,72 #7f0f00c7 app:id/notificationIcons} during layout: running second layout pass
+
+04-10 18:53:08.145  1426  1426 W View    : requestLayout() improperly called by com.android.systemui.statusbar.phone.IconMerger{6604930 V.E...... ......ID 0,0-270,72 #7f0f00c7 app:id/notificationIcons} during second layout pass: posting in next frame
+
+04-10 18:53:08.155  2066  2066 I SendBroadcastPermission: action:com.huawei.android.action.WIDGET_FOCUS_CHANGE, mPermissionType:0
+
